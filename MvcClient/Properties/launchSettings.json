@@ -1,0 +1,14 @@
+﻿{
+  "profiles": {
+    "MvcClient": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "lanuchUrl": "https://localhost:7001",
+      // 引号里不能有空格
+      "applicationUrl": "https://localhost:7001;http://localhost:7000",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

@@ -1,0 +1,1874 @@
+2020-03-06 20:11:50.916 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2020-03-06 20:11:51.006 +08:00 [DBG] Using Identity.Application as default scheme for authentication
+2020-03-06 20:11:51.014 +08:00 [DBG] Using Identity.External as default scheme for sign-in
+2020-03-06 20:11:51.014 +08:00 [DBG] Using Identity.External as default scheme for sign-out
+2020-03-06 20:11:51.015 +08:00 [DBG] Using Identity.Application as default scheme for challenge
+2020-03-06 20:11:51.015 +08:00 [DBG] Using Identity.Application as default scheme for forbid
+2020-03-06 20:11:57.523 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2020-03-06 20:11:57.875 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2020-03-06 20:11:57.876 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2020-03-06 20:11:57.882 +08:00 [DBG] Start discovery request
+2020-03-06 20:30:32.585 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2020-03-06 20:30:32.647 +08:00 [DBG] Using Identity.Application as default scheme for authentication
+2020-03-06 20:30:32.651 +08:00 [DBG] Using Identity.External as default scheme for sign-in
+2020-03-06 20:30:32.651 +08:00 [DBG] Using Identity.External as default scheme for sign-out
+2020-03-06 20:30:32.652 +08:00 [DBG] Using Identity.Application as default scheme for challenge
+2020-03-06 20:30:32.652 +08:00 [DBG] Using Identity.Application as default scheme for forbid
+2020-03-06 20:30:48.833 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2020-03-06 20:30:48.978 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2020-03-06 20:30:48.979 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2020-03-06 20:30:48.984 +08:00 [DBG] Start discovery request
+2020-03-06 20:56:25.773 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2020-03-06 20:56:25.839 +08:00 [DBG] Using Identity.Application as default scheme for authentication
+2020-03-06 20:56:25.843 +08:00 [DBG] Using Identity.External as default scheme for sign-in
+2020-03-06 20:56:25.843 +08:00 [DBG] Using Identity.External as default scheme for sign-out
+2020-03-06 20:56:25.843 +08:00 [DBG] Using Identity.Application as default scheme for challenge
+2020-03-06 20:56:25.844 +08:00 [DBG] Using Identity.Application as default scheme for forbid
+2020-03-06 20:56:48.290 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2020-03-06 20:56:48.521 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2020-03-06 20:56:48.522 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2020-03-06 20:56:48.531 +08:00 [DBG] Start discovery request
+2020-03-06 20:56:48.749 +08:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2020-03-06 20:56:48.757 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2020-03-06 20:56:48.764 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2020-03-06 20:56:48.775 +08:00 [DBG] Start key discovery request
+2020-03-06 20:56:49.005 +08:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2020-03-06 20:56:49.035 +08:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2020-03-06 20:56:49.037 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2020-03-06 20:56:49.050 +08:00 [DBG] Start authorize request
+2020-03-06 20:56:49.070 +08:00 [DBG] No user present in authorize request
+2020-03-06 20:56:49.079 +08:00 [DBG] Start authorize request protocol validation
+2020-03-06 20:56:49.102 +08:00 [DBG] Checking for PKCE parameters
+2020-03-06 20:56:49.104 +08:00 [DBG] No PKCE used.
+2020-03-06 20:56:49.149 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-03-06 20:56:49.167 +08:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "mvcclient",
+  "ClientName": "MVC 客户端",
+  "RedirectUri": "https://localhost:7001/signin-oidc",
+  "AllowedRedirectUris": [
+    "https://localhost:7001/signin-oidc"
+  ],
+  "SubjectId": "anonymous",
+  "ResponseType": "code id_token",
+  "ResponseMode": "form_post",
+  "GrantType": "hybrid",
+  "RequestedScopes": "openid",
+  "State": "CfDJ8J9myGZ5GbdOqIfOtsM_BFCKU-SY_43meQxDMRnp1atJMZmZwkw-pgIhZEqTpsNG8taZwLFUYNIhYHSMJdoctPx7ma6ECcAVCwQudJYeOIj7GC4EfiFWspNDNSufq5jfhAEnP0cYo1UiUft5MTNkgZ54xqwEqkQUWjY-i-Pe6-j3Dlbs4XX7crsbalE-JyUp00Oz6vo-502-qycJiIWtiKae55BUEaIeXKBIjxiKxDDG1CZ5SJLOJCuXm_MXtR91WgeXsZkuUwfbMV9xUBiu588Ll_m0xI699xzr-347r07QIhgUXUli72Tf3j9ChWOiBw",
+  "Nonce": "637190962088725979.NDMwYWM4ZGMtOTcyNS00ZjQ4LTgwYmItZjYxNjU0MDM4MjZiY2M0MjY3NzItNzY1Mi00ZmM4LWFiYzgtZGQwYzU4ZTAzMjY3",
+  "Raw": {
+    "client_id": "mvcclient",
+    "redirect_uri": "https://localhost:7001/signin-oidc",
+    "response_type": "code id_token",
+    "scope": "openid",
+    "response_mode": "form_post",
+    "nonce": "637190962088725979.NDMwYWM4ZGMtOTcyNS00ZjQ4LTgwYmItZjYxNjU0MDM4MjZiY2M0MjY3NzItNzY1Mi00ZmM4LWFiYzgtZGQwYzU4ZTAzMjY3",
+    "state": "CfDJ8J9myGZ5GbdOqIfOtsM_BFCKU-SY_43meQxDMRnp1atJMZmZwkw-pgIhZEqTpsNG8taZwLFUYNIhYHSMJdoctPx7ma6ECcAVCwQudJYeOIj7GC4EfiFWspNDNSufq5jfhAEnP0cYo1UiUft5MTNkgZ54xqwEqkQUWjY-i-Pe6-j3Dlbs4XX7crsbalE-JyUp00Oz6vo-502-qycJiIWtiKae55BUEaIeXKBIjxiKxDDG1CZ5SJLOJCuXm_MXtR91WgeXsZkuUwfbMV9xUBiu588Ll_m0xI699xzr-347r07QIhgUXUli72Tf3j9ChWOiBw",
+    "x-client-SKU": "ID_NETSTANDARD1_4",
+    "x-client-ver": "5.2.0.0"
+  }
+}
+2020-03-06 20:56:49.197 +08:00 [INF] Showing login: User is not authenticated
+2020-03-06 20:56:49.315 +08:00 [DBG] Start authorize request protocol validation
+2020-03-06 20:56:49.316 +08:00 [DBG] Checking for PKCE parameters
+2020-03-06 20:56:49.318 +08:00 [DBG] No PKCE used.
+2020-03-06 20:56:49.319 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-03-06 21:02:03.748 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2020-03-06 21:02:03.799 +08:00 [DBG] Using Identity.Application as default scheme for authentication
+2020-03-06 21:02:03.803 +08:00 [DBG] Using Identity.External as default scheme for sign-in
+2020-03-06 21:02:03.805 +08:00 [DBG] Using Identity.External as default scheme for sign-out
+2020-03-06 21:02:03.805 +08:00 [DBG] Using Identity.Application as default scheme for challenge
+2020-03-06 21:02:03.806 +08:00 [DBG] Using Identity.Application as default scheme for forbid
+2020-03-06 21:02:55.371 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2020-03-06 21:02:55.554 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2020-03-06 21:02:55.555 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2020-03-06 21:02:55.562 +08:00 [DBG] Start discovery request
+2020-03-06 21:02:55.911 +08:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2020-03-06 21:02:55.923 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2020-03-06 21:02:55.926 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2020-03-06 21:02:55.935 +08:00 [DBG] Start key discovery request
+2020-03-06 21:02:57.408 +08:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2020-03-06 21:02:57.419 +08:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2020-03-06 21:02:57.421 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2020-03-06 21:02:57.430 +08:00 [DBG] Start authorize request
+2020-03-06 21:02:57.457 +08:00 [DBG] No user present in authorize request
+2020-03-06 21:02:57.463 +08:00 [DBG] Start authorize request protocol validation
+2020-03-06 21:02:57.480 +08:00 [DBG] Checking for PKCE parameters
+2020-03-06 21:02:57.482 +08:00 [DBG] No PKCE used.
+2020-03-06 21:02:57.520 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-03-06 21:02:57.534 +08:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "mvcclient",
+  "ClientName": "MVC 客户端",
+  "RedirectUri": "https://localhost:7001/signin-oidc",
+  "AllowedRedirectUris": [
+    "https://localhost:7001/signin-oidc"
+  ],
+  "SubjectId": "anonymous",
+  "ResponseType": "code id_token",
+  "ResponseMode": "form_post",
+  "GrantType": "hybrid",
+  "RequestedScopes": "openid",
+  "State": "CfDJ8J9myGZ5GbdOqIfOtsM_BFDFPY4_cy9jGksZ2CsWfj-nbqF9hSXfUEkx97GKpZmcbSaeqQQvEubJtHCXOO25EkWRVu_QslLhh2xI47tyAqLg6MrcEuHC3mN5tL2vUgWTShi67vWScVwKuLSLtanqX2z7XSwCja5v1YA-LHH45LsAdS0w21tZTecLgn5hFwvw_xkAPq9GqlaPCiXCe0deZSQzTT3zAmc5agHSKYCEgclESl1pfAE4MBOZWnXSO3bc0Cksd2O0GKZYHk_kmxEd3EY01rxMlM5CRK6TluVo7a_tl9JwCYkGfEOiF-h_sYfB6A",
+  "Nonce": "637190965760196239.YWFmZDBmN2QtNGRkNi00MzllLThkN2MtOTU5MmIzOTJlNzQ1NjFhZTc2NDQtODdlNi00YWFkLTlmNzgtMTAxYzEyZjY5MTM0",
+  "Raw": {
+    "client_id": "mvcclient",
+    "redirect_uri": "https://localhost:7001/signin-oidc",
+    "response_type": "code id_token",
+    "scope": "openid",
+    "response_mode": "form_post",
+    "nonce": "637190965760196239.YWFmZDBmN2QtNGRkNi00MzllLThkN2MtOTU5MmIzOTJlNzQ1NjFhZTc2NDQtODdlNi00YWFkLTlmNzgtMTAxYzEyZjY5MTM0",
+    "state": "CfDJ8J9myGZ5GbdOqIfOtsM_BFDFPY4_cy9jGksZ2CsWfj-nbqF9hSXfUEkx97GKpZmcbSaeqQQvEubJtHCXOO25EkWRVu_QslLhh2xI47tyAqLg6MrcEuHC3mN5tL2vUgWTShi67vWScVwKuLSLtanqX2z7XSwCja5v1YA-LHH45LsAdS0w21tZTecLgn5hFwvw_xkAPq9GqlaPCiXCe0deZSQzTT3zAmc5agHSKYCEgclESl1pfAE4MBOZWnXSO3bc0Cksd2O0GKZYHk_kmxEd3EY01rxMlM5CRK6TluVo7a_tl9JwCYkGfEOiF-h_sYfB6A",
+    "x-client-SKU": "ID_NETSTANDARD1_4",
+    "x-client-ver": "5.2.0.0"
+  }
+}
+2020-03-06 21:02:57.545 +08:00 [INF] Showing login: User is not authenticated
+2020-03-06 21:02:57.725 +08:00 [DBG] Start authorize request protocol validation
+2020-03-06 21:02:57.725 +08:00 [DBG] Checking for PKCE parameters
+2020-03-06 21:02:57.726 +08:00 [DBG] No PKCE used.
+2020-03-06 21:02:57.726 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-03-06 21:03:15.859 +08:00 [ERR] Failed executing DbCommand (4ms) [Parameters=[@__normalizedUserName_0='?' (Size = 3)], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."AccessFailedCount", "u"."ConcurrencyStamp", "u"."Email", "u"."EmailConfirmed", "u"."LockoutEnabled", "u"."LockoutEnd", "u"."NormalizedEmail", "u"."NormalizedUserName", "u"."PasswordHash", "u"."PhoneNumber", "u"."PhoneNumberConfirmed", "u"."SecurityStamp", "u"."TwoFactorEnabled", "u"."UserName"
+FROM "AspNetUsers" AS "u"
+WHERE "u"."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: AspNetUsers'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+2020-03-06 21:03:15.911 +08:00 [ERR] An exception occurred in the database while iterating the results of a query for context type 'BlogIdp.Data.ApplicationDbContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: AspNetUsers'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.FirstOrDefault_[TSource](IAsyncEnumerable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.MoveNextCore(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: AspNetUsers'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.FirstOrDefault_[TSource](IAsyncEnumerable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.MoveNextCore(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+2020-03-06 21:03:15.928 +08:00 [ERR] An exception occurred in the database while iterating the results of a query for context type 'BlogIdp.Data.ApplicationDbContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: AspNetUsers'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.FirstOrDefault_[TSource](IAsyncEnumerable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.MoveNextCore(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteSingletonAsyncQuery[TResult](QueryContext queryContext, Func`2 compiledQuery, IDiagnosticsLogger`1 logger, Type contextType)
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: AspNetUsers'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.FirstOrDefault_[TSource](IAsyncEnumerable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.MoveNextCore(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteSingletonAsyncQuery[TResult](QueryContext queryContext, Func`2 compiledQuery, IDiagnosticsLogger`1 logger, Type contextType)
+2020-03-06 21:05:13.268 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2020-03-06 21:05:13.278 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2020-03-06 21:05:13.279 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2020-03-06 21:05:13.281 +08:00 [DBG] Start discovery request
+2020-03-06 21:05:13.481 +08:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2020-03-06 21:05:13.484 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2020-03-06 21:05:13.487 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2020-03-06 21:05:13.491 +08:00 [DBG] Start key discovery request
+2020-03-06 21:05:13.634 +08:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2020-03-06 21:05:13.636 +08:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2020-03-06 21:05:13.640 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2020-03-06 21:05:13.643 +08:00 [DBG] Start authorize request
+2020-03-06 21:05:13.643 +08:00 [DBG] No user present in authorize request
+2020-03-06 21:05:13.646 +08:00 [DBG] Start authorize request protocol validation
+2020-03-06 21:05:13.648 +08:00 [DBG] Checking for PKCE parameters
+2020-03-06 21:05:13.649 +08:00 [DBG] No PKCE used.
+2020-03-06 21:05:13.650 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-03-06 21:05:13.651 +08:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "mvcclient",
+  "ClientName": "MVC 客户端",
+  "RedirectUri": "https://localhost:7001/signin-oidc",
+  "AllowedRedirectUris": [
+    "https://localhost:7001/signin-oidc"
+  ],
+  "SubjectId": "anonymous",
+  "ResponseType": "code id_token",
+  "ResponseMode": "form_post",
+  "GrantType": "hybrid",
+  "RequestedScopes": "openid",
+  "State": "CfDJ8J9myGZ5GbdOqIfOtsM_BFCEDUpwwWWuJrtRfhgp86r31rkKLS_963JpyESX6cpHLOtyuTynO0W3dX8EFfPStMOh2H7G-l3hJhPupVqVGA-JwKPzXr47XzhmQ50-YNtnHCGedCQgyRdSZmPJvsPNtUiS8MxpnYf8HTg6bvge7sVtao0TmKoQfzfNnqmngyn2WNOD6vNX56j647upUxiW9ijDlqvVPvldiSWfvFlfObW9bFlb_1g-EnZL1t1lVjXicwub7YOl8tyuoPZQl_c8GiY8t9RX7K_wpjxSbsqoLR8QbuIq0UA8qB5BQizNU4WwZA",
+  "Nonce": "637190967135450147.NzE4MmE2YTYtMzY3YS00ZDg2LWIwMmEtOGRjYmYyYWY0ZmUzZmU4MWEzOTItOWU2MC00NmIzLTg4M2YtZDFiZjJjYmQ3YzE4",
+  "Raw": {
+    "client_id": "mvcclient",
+    "redirect_uri": "https://localhost:7001/signin-oidc",
+    "response_type": "code id_token",
+    "scope": "openid",
+    "response_mode": "form_post",
+    "nonce": "637190967135450147.NzE4MmE2YTYtMzY3YS00ZDg2LWIwMmEtOGRjYmYyYWY0ZmUzZmU4MWEzOTItOWU2MC00NmIzLTg4M2YtZDFiZjJjYmQ3YzE4",
+    "state": "CfDJ8J9myGZ5GbdOqIfOtsM_BFCEDUpwwWWuJrtRfhgp86r31rkKLS_963JpyESX6cpHLOtyuTynO0W3dX8EFfPStMOh2H7G-l3hJhPupVqVGA-JwKPzXr47XzhmQ50-YNtnHCGedCQgyRdSZmPJvsPNtUiS8MxpnYf8HTg6bvge7sVtao0TmKoQfzfNnqmngyn2WNOD6vNX56j647upUxiW9ijDlqvVPvldiSWfvFlfObW9bFlb_1g-EnZL1t1lVjXicwub7YOl8tyuoPZQl_c8GiY8t9RX7K_wpjxSbsqoLR8QbuIq0UA8qB5BQizNU4WwZA",
+    "x-client-SKU": "ID_NETSTANDARD1_4",
+    "x-client-ver": "5.2.0.0"
+  }
+}
+2020-03-06 21:05:13.664 +08:00 [INF] Showing login: User is not authenticated
+2020-03-06 21:05:13.695 +08:00 [DBG] Start authorize request protocol validation
+2020-03-06 21:05:13.695 +08:00 [DBG] Checking for PKCE parameters
+2020-03-06 21:05:13.700 +08:00 [DBG] No PKCE used.
+2020-03-06 21:05:13.704 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-03-06 21:05:29.110 +08:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-03-06 21:05:29.128 +08:00 [ERR] Failed executing DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?' (Size = 5)], CommandType='"Text"', CommandTimeout='30']
+SELECT "u"."Id", "u"."AccessFailedCount", "u"."ConcurrencyStamp", "u"."Email", "u"."EmailConfirmed", "u"."LockoutEnabled", "u"."LockoutEnd", "u"."NormalizedEmail", "u"."NormalizedUserName", "u"."PasswordHash", "u"."PhoneNumber", "u"."PhoneNumberConfirmed", "u"."SecurityStamp", "u"."TwoFactorEnabled", "u"."UserName"
+FROM "AspNetUsers" AS "u"
+WHERE "u"."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: AspNetUsers'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+2020-03-06 21:05:29.156 +08:00 [ERR] An exception occurred in the database while iterating the results of a query for context type 'BlogIdp.Data.ApplicationDbContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: AspNetUsers'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.FirstOrDefault_[TSource](IAsyncEnumerable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.MoveNextCore(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: AspNetUsers'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.FirstOrDefault_[TSource](IAsyncEnumerable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.MoveNextCore(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+2020-03-06 21:05:29.196 +08:00 [ERR] An exception occurred in the database while iterating the results of a query for context type 'BlogIdp.Data.ApplicationDbContext'.
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: AspNetUsers'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.FirstOrDefault_[TSource](IAsyncEnumerable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.MoveNextCore(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteSingletonAsyncQuery[TResult](QueryContext queryContext, Func`2 compiledQuery, IDiagnosticsLogger`1 logger, Type contextType)
+Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite Error 1: 'no such table: AspNetUsers'.
+   at Microsoft.Data.Sqlite.SqliteException.ThrowExceptionForRC(Int32 rc, sqlite3 db)
+   at Microsoft.Data.Sqlite.SqliteCommand.PrepareAndEnumerateStatements(Stopwatch timer)+MoveNext()
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.Data.Sqlite.SqliteCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteAsync(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.FirstOrDefault_[TSource](IAsyncEnumerable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.MoveNextCore(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteSingletonAsyncQuery[TResult](QueryContext queryContext, Func`2 compiledQuery, IDiagnosticsLogger`1 logger, Type contextType)
+2020-03-06 21:05:46.014 +08:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-03-06 21:05:46.095 +08:00 [INF] {
+  "Name": "User Login Failure",
+  "Category": "Authentication",
+  "EventType": "Failure",
+  "Id": 1001,
+  "Username": "alice",
+  "Endpoint": "UI",
+  "Message": "invalid credentials",
+  "ActivityId": "0HLU1PQNODMGH:00000005",
+  "TimeStamp": "2020-03-06T13:05:46Z",
+  "ProcessId": 2460,
+  "LocalIpAddress": "::1:5001",
+  "RemoteIpAddress": "::1"
+}
+2020-03-06 21:05:46.102 +08:00 [DBG] Start authorize request protocol validation
+2020-03-06 21:05:46.104 +08:00 [DBG] Checking for PKCE parameters
+2020-03-06 21:05:46.104 +08:00 [DBG] No PKCE used.
+2020-03-06 21:05:46.105 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-03-06 21:05:52.719 +08:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-03-06 21:05:52.728 +08:00 [INF] {
+  "Name": "User Login Failure",
+  "Category": "Authentication",
+  "EventType": "Failure",
+  "Id": 1001,
+  "Username": "alice",
+  "Endpoint": "UI",
+  "Message": "invalid credentials",
+  "ActivityId": "0HLU1PQNODMGH:00000007",
+  "TimeStamp": "2020-03-06T13:05:52Z",
+  "ProcessId": 2460,
+  "LocalIpAddress": "::1:5001",
+  "RemoteIpAddress": "::1"
+}
+2020-03-06 21:05:52.729 +08:00 [DBG] Start authorize request protocol validation
+2020-03-06 21:05:52.730 +08:00 [DBG] Checking for PKCE parameters
+2020-03-06 21:05:52.737 +08:00 [DBG] No PKCE used.
+2020-03-06 21:05:52.739 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-03-06 21:05:58.321 +08:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-03-06 21:05:58.327 +08:00 [INF] {
+  "Name": "User Login Failure",
+  "Category": "Authentication",
+  "EventType": "Failure",
+  "Id": 1001,
+  "Username": "alice",
+  "Endpoint": "UI",
+  "Message": "invalid credentials",
+  "ActivityId": "0HLU1PQNODMGH:00000008",
+  "TimeStamp": "2020-03-06T13:05:58Z",
+  "ProcessId": 2460,
+  "LocalIpAddress": "::1:5001",
+  "RemoteIpAddress": "::1"
+}
+2020-03-06 21:05:58.336 +08:00 [DBG] Start authorize request protocol validation
+2020-03-06 21:05:58.338 +08:00 [DBG] Checking for PKCE parameters
+2020-03-06 21:05:58.339 +08:00 [DBG] No PKCE used.
+2020-03-06 21:05:58.340 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-03-06 21:06:14.409 +08:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-03-06 21:06:14.424 +08:00 [INF] {
+  "Name": "User Login Failure",
+  "Category": "Authentication",
+  "EventType": "Failure",
+  "Id": 1001,
+  "Username": "bob",
+  "Endpoint": "UI",
+  "Message": "invalid credentials",
+  "ActivityId": "0HLU1PQNODMGH:00000009",
+  "TimeStamp": "2020-03-06T13:06:14Z",
+  "ProcessId": 2460,
+  "LocalIpAddress": "::1:5001",
+  "RemoteIpAddress": "::1"
+}
+2020-03-06 21:06:14.434 +08:00 [DBG] Start authorize request protocol validation
+2020-03-06 21:06:14.435 +08:00 [DBG] Checking for PKCE parameters
+2020-03-06 21:06:14.436 +08:00 [DBG] No PKCE used.
+2020-03-06 21:06:14.436 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-03-06 21:07:02.218 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2020-03-06 21:07:02.222 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2020-03-06 21:07:02.226 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2020-03-06 21:07:02.228 +08:00 [DBG] Start discovery request
+2020-03-06 21:07:02.389 +08:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2020-03-06 21:07:02.391 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2020-03-06 21:07:02.394 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2020-03-06 21:07:02.396 +08:00 [DBG] Start key discovery request
+2020-03-06 21:07:02.522 +08:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2020-03-06 21:07:02.544 +08:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2020-03-06 21:07:02.554 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2020-03-06 21:07:02.559 +08:00 [DBG] Start authorize request
+2020-03-06 21:07:02.560 +08:00 [DBG] No user present in authorize request
+2020-03-06 21:07:02.560 +08:00 [DBG] Start authorize request protocol validation
+2020-03-06 21:07:02.561 +08:00 [DBG] Checking for PKCE parameters
+2020-03-06 21:07:02.570 +08:00 [DBG] No PKCE used.
+2020-03-06 21:07:02.571 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-03-06 21:07:02.573 +08:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "mvcclient",
+  "ClientName": "MVC 客户端",
+  "RedirectUri": "https://localhost:7001/signin-oidc",
+  "AllowedRedirectUris": [
+    "https://localhost:7001/signin-oidc"
+  ],
+  "SubjectId": "anonymous",
+  "ResponseType": "code id_token",
+  "ResponseMode": "form_post",
+  "GrantType": "hybrid",
+  "RequestedScopes": "openid",
+  "State": "CfDJ8J9myGZ5GbdOqIfOtsM_BFBc0pN8wYdcGOit0Vlo5FgQqiQQ0ZBFX_hzKbKBbGvX51HvV36O0tL67WZApLMeQWV2-iY7xtQpqJe-nYYRRZnkR_B5b8zakWHqUkPYf835SKpmW_wmnEiim-y5GFqwcqqMFnGg7ltt-VTjqOEbeOk1A9NhUAqMizCrNSi5zaCkwWLk63fpriZ8AqoyJyE6YgF484nPTT4hkk17GbJRiQFtMR24HoNGg0hlJo1E3xNkR5q8U7ghDO5-ra-dH-O2EK1CLeUeeKxnH1jCQuPQAowzM_XF3y6hq3N38JkB2GULgQ",
+  "Nonce": "637190968224379486.YTYwMmFkZjYtMzRjZC00MTU2LWExMWQtNzA1YTkyOGFlOTFkMTFmMjQ0MDMtYTVlYS00NGMzLWFlZjUtYTQwN2JlODJmMjg0",
+  "Raw": {
+    "client_id": "mvcclient",
+    "redirect_uri": "https://localhost:7001/signin-oidc",
+    "response_type": "code id_token",
+    "scope": "openid",
+    "response_mode": "form_post",
+    "nonce": "637190968224379486.YTYwMmFkZjYtMzRjZC00MTU2LWExMWQtNzA1YTkyOGFlOTFkMTFmMjQ0MDMtYTVlYS00NGMzLWFlZjUtYTQwN2JlODJmMjg0",
+    "state": "CfDJ8J9myGZ5GbdOqIfOtsM_BFBc0pN8wYdcGOit0Vlo5FgQqiQQ0ZBFX_hzKbKBbGvX51HvV36O0tL67WZApLMeQWV2-iY7xtQpqJe-nYYRRZnkR_B5b8zakWHqUkPYf835SKpmW_wmnEiim-y5GFqwcqqMFnGg7ltt-VTjqOEbeOk1A9NhUAqMizCrNSi5zaCkwWLk63fpriZ8AqoyJyE6YgF484nPTT4hkk17GbJRiQFtMR24HoNGg0hlJo1E3xNkR5q8U7ghDO5-ra-dH-O2EK1CLeUeeKxnH1jCQuPQAowzM_XF3y6hq3N38JkB2GULgQ",
+    "x-client-SKU": "ID_NETSTANDARD1_4",
+    "x-client-ver": "5.2.0.0"
+  }
+}
+2020-03-06 21:07:02.593 +08:00 [INF] Showing login: User is not authenticated
+2020-03-06 21:07:02.620 +08:00 [DBG] Start authorize request protocol validation
+2020-03-06 21:07:02.621 +08:00 [DBG] Checking for PKCE parameters
+2020-03-06 21:07:02.625 +08:00 [DBG] No PKCE used.
+2020-03-06 21:07:02.629 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-03-06 21:07:09.930 +08:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-03-06 21:07:09.940 +08:00 [INF] {
+  "Name": "User Login Failure",
+  "Category": "Authentication",
+  "EventType": "Failure",
+  "Id": 1001,
+  "Username": "bob",
+  "Endpoint": "UI",
+  "Message": "invalid credentials",
+  "ActivityId": "0HLU1PQNODMGH:0000000C",
+  "TimeStamp": "2020-03-06T13:07:09Z",
+  "ProcessId": 2460,
+  "LocalIpAddress": "::1:5001",
+  "RemoteIpAddress": "::1"
+}
+2020-03-06 21:07:09.942 +08:00 [DBG] Start authorize request protocol validation
+2020-03-06 21:07:09.944 +08:00 [DBG] Checking for PKCE parameters
+2020-03-06 21:07:09.946 +08:00 [DBG] No PKCE used.
+2020-03-06 21:07:09.947 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-03-06 21:07:16.127 +08:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-03-06 21:07:16.142 +08:00 [INF] {
+  "Name": "User Login Failure",
+  "Category": "Authentication",
+  "EventType": "Failure",
+  "Id": 1001,
+  "Username": "bob",
+  "Endpoint": "UI",
+  "Message": "invalid credentials",
+  "ActivityId": "0HLU1PQNODMGH:0000000D",
+  "TimeStamp": "2020-03-06T13:07:16Z",
+  "ProcessId": 2460,
+  "LocalIpAddress": "::1:5001",
+  "RemoteIpAddress": "::1"
+}
+2020-03-06 21:07:16.146 +08:00 [DBG] Start authorize request protocol validation
+2020-03-06 21:07:16.155 +08:00 [DBG] Checking for PKCE parameters
+2020-03-06 21:07:16.158 +08:00 [DBG] No PKCE used.
+2020-03-06 21:07:16.159 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-03-06 21:15:32.718 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2020-03-06 21:15:32.767 +08:00 [DBG] Using Identity.Application as default scheme for authentication
+2020-03-06 21:15:32.771 +08:00 [DBG] Using Identity.External as default scheme for sign-in
+2020-03-06 21:15:32.771 +08:00 [DBG] Using Identity.External as default scheme for sign-out
+2020-03-06 21:15:32.772 +08:00 [DBG] Using Identity.Application as default scheme for challenge
+2020-03-06 21:15:32.772 +08:00 [DBG] Using Identity.Application as default scheme for forbid
+2020-03-06 21:15:44.260 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2020-03-06 21:15:44.356 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2020-03-06 21:15:44.357 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2020-03-06 21:15:44.363 +08:00 [DBG] Start discovery request
+2020-03-06 21:15:44.600 +08:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2020-03-06 21:15:44.616 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2020-03-06 21:15:44.617 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2020-03-06 21:15:44.625 +08:00 [DBG] Start key discovery request
+2020-03-06 21:15:44.782 +08:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2020-03-06 21:15:44.791 +08:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2020-03-06 21:15:44.791 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2020-03-06 21:15:44.802 +08:00 [DBG] Start authorize request
+2020-03-06 21:15:44.816 +08:00 [DBG] No user present in authorize request
+2020-03-06 21:15:44.825 +08:00 [DBG] Start authorize request protocol validation
+2020-03-06 21:15:44.841 +08:00 [DBG] Checking for PKCE parameters
+2020-03-06 21:15:44.843 +08:00 [DBG] No PKCE used.
+2020-03-06 21:15:44.890 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-03-06 21:15:44.909 +08:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "mvcclient",
+  "ClientName": "MVC 客户端",
+  "RedirectUri": "https://localhost:7001/signin-oidc",
+  "AllowedRedirectUris": [
+    "https://localhost:7001/signin-oidc"
+  ],
+  "SubjectId": "anonymous",
+  "ResponseType": "code id_token",
+  "ResponseMode": "form_post",
+  "GrantType": "hybrid",
+  "RequestedScopes": "openid",
+  "State": "CfDJ8J9myGZ5GbdOqIfOtsM_BFD8g-UNDAj-rDXcmAHcA_XYgCx9g1xadZvOgPPpB0Km7EH5PB2p2nmIhEbcLd5KynjAvNfgeMqLJs9_A6K_2BtBZg9rOCc4MxgqMDDFjZVlJzr_YTvknno0w2zIpqIRH57zaCo-JbaI2WML5I-9FIyicq8js2DWNSdqUlEFw-j8NGoiAqDoVyDlFHz7VowkifX_348PN2kitr9ZyotcNs5II7tM3oM8SdoBo7PEHC70iRBui7rGD3SWbQkBVPoDeDT0D3YO7zPJZ7VYKucyX91wwY_UwRxYKUAZAShK4wXDHg",
+  "Nonce": "637190973446882085.MzJkOGM1MTAtMmYyNy00Yzk3LWJiYWQtODNlMWVjZTFjYzMxZmRhOWJlZjMtMWVhOC00N2E0LTgyMTktZWM5ZTA1ZDY1ZWI5",
+  "Raw": {
+    "client_id": "mvcclient",
+    "redirect_uri": "https://localhost:7001/signin-oidc",
+    "response_type": "code id_token",
+    "scope": "openid",
+    "response_mode": "form_post",
+    "nonce": "637190973446882085.MzJkOGM1MTAtMmYyNy00Yzk3LWJiYWQtODNlMWVjZTFjYzMxZmRhOWJlZjMtMWVhOC00N2E0LTgyMTktZWM5ZTA1ZDY1ZWI5",
+    "state": "CfDJ8J9myGZ5GbdOqIfOtsM_BFD8g-UNDAj-rDXcmAHcA_XYgCx9g1xadZvOgPPpB0Km7EH5PB2p2nmIhEbcLd5KynjAvNfgeMqLJs9_A6K_2BtBZg9rOCc4MxgqMDDFjZVlJzr_YTvknno0w2zIpqIRH57zaCo-JbaI2WML5I-9FIyicq8js2DWNSdqUlEFw-j8NGoiAqDoVyDlFHz7VowkifX_348PN2kitr9ZyotcNs5II7tM3oM8SdoBo7PEHC70iRBui7rGD3SWbQkBVPoDeDT0D3YO7zPJZ7VYKucyX91wwY_UwRxYKUAZAShK4wXDHg",
+    "x-client-SKU": "ID_NETSTANDARD1_4",
+    "x-client-ver": "5.2.0.0"
+  }
+}
+2020-03-06 21:15:44.929 +08:00 [INF] Showing login: User is not authenticated
+2020-03-06 21:15:45.164 +08:00 [DBG] Start authorize request protocol validation
+2020-03-06 21:15:45.165 +08:00 [DBG] Checking for PKCE parameters
+2020-03-06 21:15:45.166 +08:00 [DBG] No PKCE used.
+2020-03-06 21:15:45.167 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-03-06 21:15:55.287 +08:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-03-06 21:15:55.789 +08:00 [INF] {
+  "Name": "User Login Failure",
+  "Category": "Authentication",
+  "EventType": "Failure",
+  "Id": 1001,
+  "Username": "alice",
+  "Endpoint": "UI",
+  "Message": "invalid credentials",
+  "ActivityId": "0HLU1Q1SO6E7B:00000003",
+  "TimeStamp": "2020-03-06T13:15:55Z",
+  "ProcessId": 10188,
+  "LocalIpAddress": "::1:5001",
+  "RemoteIpAddress": "::1"
+}
+2020-03-06 21:15:55.794 +08:00 [DBG] Start authorize request protocol validation
+2020-03-06 21:15:55.795 +08:00 [DBG] Checking for PKCE parameters
+2020-03-06 21:15:55.795 +08:00 [DBG] No PKCE used.
+2020-03-06 21:15:55.796 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-03-06 21:16:02.579 +08:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-03-06 21:16:02.583 +08:00 [DBG] Start authorize request protocol validation
+2020-03-06 21:16:02.584 +08:00 [DBG] Checking for PKCE parameters
+2020-03-06 21:16:02.584 +08:00 [DBG] No PKCE used.
+2020-03-06 21:16:02.585 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-03-06 21:16:02.639 +08:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2020-03-06 21:16:02.646 +08:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2020-03-06 21:16:02.648 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2020-03-06 21:16:02.666 +08:00 [DBG] Start authorize callback request
+2020-03-06 21:16:02.673 +08:00 [DBG] No user present in authorize request
+2020-03-06 21:16:02.677 +08:00 [DBG] Start authorize request protocol validation
+2020-03-06 21:16:02.678 +08:00 [DBG] Checking for PKCE parameters
+2020-03-06 21:16:02.679 +08:00 [DBG] No PKCE used.
+2020-03-06 21:16:02.681 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-03-06 21:16:02.683 +08:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "mvcclient",
+  "ClientName": "MVC 客户端",
+  "RedirectUri": "https://localhost:7001/signin-oidc",
+  "AllowedRedirectUris": [
+    "https://localhost:7001/signin-oidc"
+  ],
+  "SubjectId": "anonymous",
+  "ResponseType": "code id_token",
+  "ResponseMode": "form_post",
+  "GrantType": "hybrid",
+  "RequestedScopes": "openid",
+  "State": "CfDJ8J9myGZ5GbdOqIfOtsM_BFD8g-UNDAj-rDXcmAHcA_XYgCx9g1xadZvOgPPpB0Km7EH5PB2p2nmIhEbcLd5KynjAvNfgeMqLJs9_A6K_2BtBZg9rOCc4MxgqMDDFjZVlJzr_YTvknno0w2zIpqIRH57zaCo-JbaI2WML5I-9FIyicq8js2DWNSdqUlEFw-j8NGoiAqDoVyDlFHz7VowkifX_348PN2kitr9ZyotcNs5II7tM3oM8SdoBo7PEHC70iRBui7rGD3SWbQkBVPoDeDT0D3YO7zPJZ7VYKucyX91wwY_UwRxYKUAZAShK4wXDHg",
+  "Nonce": "637190973446882085.MzJkOGM1MTAtMmYyNy00Yzk3LWJiYWQtODNlMWVjZTFjYzMxZmRhOWJlZjMtMWVhOC00N2E0LTgyMTktZWM5ZTA1ZDY1ZWI5",
+  "Raw": {
+    "client_id": "mvcclient",
+    "redirect_uri": "https://localhost:7001/signin-oidc",
+    "response_type": "code id_token",
+    "scope": "openid",
+    "response_mode": "form_post",
+    "nonce": "637190973446882085.MzJkOGM1MTAtMmYyNy00Yzk3LWJiYWQtODNlMWVjZTFjYzMxZmRhOWJlZjMtMWVhOC00N2E0LTgyMTktZWM5ZTA1ZDY1ZWI5",
+    "state": "CfDJ8J9myGZ5GbdOqIfOtsM_BFD8g-UNDAj-rDXcmAHcA_XYgCx9g1xadZvOgPPpB0Km7EH5PB2p2nmIhEbcLd5KynjAvNfgeMqLJs9_A6K_2BtBZg9rOCc4MxgqMDDFjZVlJzr_YTvknno0w2zIpqIRH57zaCo-JbaI2WML5I-9FIyicq8js2DWNSdqUlEFw-j8NGoiAqDoVyDlFHz7VowkifX_348PN2kitr9ZyotcNs5II7tM3oM8SdoBo7PEHC70iRBui7rGD3SWbQkBVPoDeDT0D3YO7zPJZ7VYKucyX91wwY_UwRxYKUAZAShK4wXDHg",
+    "x-client-SKU": "ID_NETSTANDARD1_4",
+    "x-client-ver": "5.2.0.0"
+  }
+}
+2020-03-06 21:16:02.693 +08:00 [INF] Error: User denied consent
+2020-03-06 21:16:02.700 +08:00 [INF] {
+  "ClientId": "mvcclient",
+  "ClientName": "MVC 客户端",
+  "RedirectUri": "https://localhost:7001/signin-oidc",
+  "AllowedRedirectUris": [
+    "https://localhost:7001/signin-oidc"
+  ],
+  "SubjectId": "anonymous",
+  "ResponseType": "code id_token",
+  "ResponseMode": "form_post",
+  "GrantType": "hybrid",
+  "RequestedScopes": "openid",
+  "State": "CfDJ8J9myGZ5GbdOqIfOtsM_BFD8g-UNDAj-rDXcmAHcA_XYgCx9g1xadZvOgPPpB0Km7EH5PB2p2nmIhEbcLd5KynjAvNfgeMqLJs9_A6K_2BtBZg9rOCc4MxgqMDDFjZVlJzr_YTvknno0w2zIpqIRH57zaCo-JbaI2WML5I-9FIyicq8js2DWNSdqUlEFw-j8NGoiAqDoVyDlFHz7VowkifX_348PN2kitr9ZyotcNs5II7tM3oM8SdoBo7PEHC70iRBui7rGD3SWbQkBVPoDeDT0D3YO7zPJZ7VYKucyX91wwY_UwRxYKUAZAShK4wXDHg",
+  "Nonce": "637190973446882085.MzJkOGM1MTAtMmYyNy00Yzk3LWJiYWQtODNlMWVjZTFjYzMxZmRhOWJlZjMtMWVhOC00N2E0LTgyMTktZWM5ZTA1ZDY1ZWI5",
+  "Raw": {
+    "client_id": "mvcclient",
+    "redirect_uri": "https://localhost:7001/signin-oidc",
+    "response_type": "code id_token",
+    "scope": "openid",
+    "response_mode": "form_post",
+    "nonce": "637190973446882085.MzJkOGM1MTAtMmYyNy00Yzk3LWJiYWQtODNlMWVjZTFjYzMxZmRhOWJlZjMtMWVhOC00N2E0LTgyMTktZWM5ZTA1ZDY1ZWI5",
+    "state": "CfDJ8J9myGZ5GbdOqIfOtsM_BFD8g-UNDAj-rDXcmAHcA_XYgCx9g1xadZvOgPPpB0Km7EH5PB2p2nmIhEbcLd5KynjAvNfgeMqLJs9_A6K_2BtBZg9rOCc4MxgqMDDFjZVlJzr_YTvknno0w2zIpqIRH57zaCo-JbaI2WML5I-9FIyicq8js2DWNSdqUlEFw-j8NGoiAqDoVyDlFHz7VowkifX_348PN2kitr9ZyotcNs5II7tM3oM8SdoBo7PEHC70iRBui7rGD3SWbQkBVPoDeDT0D3YO7zPJZ7VYKucyX91wwY_UwRxYKUAZAShK4wXDHg",
+    "x-client-SKU": "ID_NETSTANDARD1_4",
+    "x-client-ver": "5.2.0.0"
+  }
+}
+2020-03-06 21:16:02.715 +08:00 [INF] {
+  "Name": "Token Issued Failure",
+  "Category": "Token",
+  "EventType": "Failure",
+  "Id": 2001,
+  "ClientId": "mvcclient",
+  "ClientName": "MVC 客户端",
+  "RedirectUri": "https://localhost:7001/signin-oidc",
+  "Endpoint": "Authorize",
+  "Scopes": "openid",
+  "GrantType": "hybrid",
+  "Error": "access_denied",
+  "ActivityId": "0HLU1Q1SO6E7B:00000005",
+  "TimeStamp": "2020-03-06T13:16:02Z",
+  "ProcessId": 10188,
+  "LocalIpAddress": "::1:5001",
+  "RemoteIpAddress": "::1"
+}
+2020-03-06 21:16:16.666 +08:00 [DBG] Start authorize request protocol validation
+2020-03-06 21:16:16.667 +08:00 [DBG] Checking for PKCE parameters
+2020-03-06 21:16:16.670 +08:00 [DBG] No PKCE used.
+2020-03-06 21:16:16.672 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-03-06 21:16:19.615 +08:00 [INF] AuthenticationScheme: Google was challenged.
+2020-03-06 21:16:26.645 +08:00 [DBG] Start authorize request protocol validation
+2020-03-06 21:16:26.646 +08:00 [DBG] Checking for PKCE parameters
+2020-03-06 21:16:26.648 +08:00 [DBG] No PKCE used.
+2020-03-06 21:16:26.650 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-03-06 21:16:45.417 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2020-03-06 21:16:45.421 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2020-03-06 21:16:45.423 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2020-03-06 21:16:45.425 +08:00 [DBG] Start discovery request
+2020-03-06 21:19:55.202 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2020-03-06 21:19:55.205 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2020-03-06 21:19:55.207 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2020-03-06 21:19:55.208 +08:00 [DBG] Start discovery request
+2020-03-06 21:19:55.364 +08:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2020-03-06 21:19:55.366 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2020-03-06 21:19:55.368 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2020-03-06 21:19:55.369 +08:00 [DBG] Start key discovery request
+2020-03-06 21:19:55.539 +08:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2020-03-06 21:19:55.551 +08:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2020-03-06 21:19:55.566 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2020-03-06 21:19:55.590 +08:00 [DBG] Start authorize request
+2020-03-06 21:19:55.591 +08:00 [DBG] No user present in authorize request
+2020-03-06 21:19:55.593 +08:00 [DBG] Start authorize request protocol validation
+2020-03-06 21:19:55.597 +08:00 [DBG] Checking for PKCE parameters
+2020-03-06 21:19:55.602 +08:00 [DBG] No PKCE used.
+2020-03-06 21:19:55.604 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-03-06 21:19:55.606 +08:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "mvcclient",
+  "ClientName": "MVC 客户端",
+  "RedirectUri": "https://localhost:7001/signin-oidc",
+  "AllowedRedirectUris": [
+    "https://localhost:7001/signin-oidc"
+  ],
+  "SubjectId": "anonymous",
+  "ResponseType": "code id_token",
+  "ResponseMode": "form_post",
+  "GrantType": "hybrid",
+  "RequestedScopes": "openid",
+  "State": "CfDJ8J9myGZ5GbdOqIfOtsM_BFAZgV5T4-OCW-1jIqZrzyT_aaNxl7OypgL9m3kWuYe6FrHE_mnrDmm07sxQAoGlYT-enIIiiEQ8h1Ggnnu6UxESPRDQB5CNcc0J0rFcmV7LPdP8X2QZ6CwhGvIBY8Nou_PnErflioBMFvkd7gFf8h1mAhHVid3NW9a9U80vtgo7Jfsek9S0PpI2xPeihD49LO2523cSSEc6y7i7sILcy6J_N8OIAU0AkX2dugrABl956lBHYsZpfkLzQJmwCMzzsbACx9sYKS40ORvsoBJDmkcxWxGCzSjMfqPz3YLYakYKeg",
+  "Nonce": "637190975954148586.N2E5ZDJkMmMtNTY4Mi00ZmVhLWEzMDgtNDU5NzcwY2M5MjNhZTZiZmQyMmMtYmVkYS00OTVmLTg1ZTUtYzQ1YzRjYjA2MjA3",
+  "Raw": {
+    "client_id": "mvcclient",
+    "redirect_uri": "https://localhost:7001/signin-oidc",
+    "response_type": "code id_token",
+    "scope": "openid",
+    "response_mode": "form_post",
+    "nonce": "637190975954148586.N2E5ZDJkMmMtNTY4Mi00ZmVhLWEzMDgtNDU5NzcwY2M5MjNhZTZiZmQyMmMtYmVkYS00OTVmLTg1ZTUtYzQ1YzRjYjA2MjA3",
+    "state": "CfDJ8J9myGZ5GbdOqIfOtsM_BFAZgV5T4-OCW-1jIqZrzyT_aaNxl7OypgL9m3kWuYe6FrHE_mnrDmm07sxQAoGlYT-enIIiiEQ8h1Ggnnu6UxESPRDQB5CNcc0J0rFcmV7LPdP8X2QZ6CwhGvIBY8Nou_PnErflioBMFvkd7gFf8h1mAhHVid3NW9a9U80vtgo7Jfsek9S0PpI2xPeihD49LO2523cSSEc6y7i7sILcy6J_N8OIAU0AkX2dugrABl956lBHYsZpfkLzQJmwCMzzsbACx9sYKS40ORvsoBJDmkcxWxGCzSjMfqPz3YLYakYKeg",
+    "x-client-SKU": "ID_NETSTANDARD1_4",
+    "x-client-ver": "5.2.0.0"
+  }
+}
+2020-03-06 21:19:55.616 +08:00 [INF] Showing login: User is not authenticated
+2020-03-06 21:19:55.647 +08:00 [DBG] Start authorize request protocol validation
+2020-03-06 21:19:55.647 +08:00 [DBG] Checking for PKCE parameters
+2020-03-06 21:19:55.649 +08:00 [DBG] No PKCE used.
+2020-03-06 21:19:55.652 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-03-06 21:19:57.895 +08:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-03-06 21:19:57.900 +08:00 [DBG] Start authorize request protocol validation
+2020-03-06 21:19:57.902 +08:00 [DBG] Checking for PKCE parameters
+2020-03-06 21:19:57.902 +08:00 [DBG] No PKCE used.
+2020-03-06 21:19:57.903 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-03-06 21:20:20.323 +08:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-03-06 21:20:20.343 +08:00 [INF] {
+  "Name": "User Login Failure",
+  "Category": "Authentication",
+  "EventType": "Failure",
+  "Id": 1001,
+  "Username": "alice",
+  "Endpoint": "UI",
+  "Message": "invalid credentials",
+  "ActivityId": "0HLU1Q1SO6E7D:00000004",
+  "TimeStamp": "2020-03-06T13:20:20Z",
+  "ProcessId": 10188,
+  "LocalIpAddress": "::1:5001",
+  "RemoteIpAddress": "::1"
+}
+2020-03-06 21:20:20.346 +08:00 [DBG] Start authorize request protocol validation
+2020-03-06 21:20:20.347 +08:00 [DBG] Checking for PKCE parameters
+2020-03-06 21:20:20.348 +08:00 [DBG] No PKCE used.
+2020-03-06 21:20:20.348 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-03-06 21:20:31.126 +08:00 [DBG] CORS request made for path: /account/login from origin: null but was ignored because path was not for an allowed IdentityServer CORS endpoint
+2020-03-06 21:20:31.133 +08:00 [INF] {
+  "Name": "User Login Failure",
+  "Category": "Authentication",
+  "EventType": "Failure",
+  "Id": 1001,
+  "Username": "alice",
+  "Endpoint": "UI",
+  "Message": "invalid credentials",
+  "ActivityId": "0HLU1Q1SO6E7D:00000005",
+  "TimeStamp": "2020-03-06T13:20:31Z",
+  "ProcessId": 10188,
+  "LocalIpAddress": "::1:5001",
+  "RemoteIpAddress": "::1"
+}
+2020-03-06 21:20:31.139 +08:00 [DBG] Start authorize request protocol validation
+2020-03-06 21:20:31.143 +08:00 [DBG] Checking for PKCE parameters
+2020-03-06 21:20:31.144 +08:00 [DBG] No PKCE used.
+2020-03-06 21:20:31.145 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2020-03-06 21:54:55.450 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2020-03-06 21:55:02.210 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2020-03-06 21:58:07.982 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2020-03-06 21:58:23.117 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2020-03-06 21:58:23.343 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2020-03-06 21:58:23.559 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2020-03-06 21:58:23.692 +08:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "mvcclient",
+  "ClientName": "MVC 客户端",
+  "RedirectUri": "https://localhost:7001/signin-oidc",
+  "AllowedRedirectUris": [
+    "https://localhost:7001/signin-oidc"
+  ],
+  "SubjectId": "anonymous",
+  "ResponseType": "code id_token",
+  "ResponseMode": "form_post",
+  "GrantType": "hybrid",
+  "RequestedScopes": "openid",
+  "State": "CfDJ8J9myGZ5GbdOqIfOtsM_BFBODoMFzhdNSuEALZ8orfJtASBwp-jP9es3UviR_zS3j6pmI_Td5Ojj_5riaXYtvd88jELwe7w5z8wEa1kjaSw7BZ0V-lQayLLQn5uxlwxxgfEPJOvc9jbeD21vEd_uM8Dmb9bGki4R30VuYMRMrT7FcCPm1jeBvfG_gVO7kFj_yH01bpxu8LBWKTs3678vRvNMhEFP1v2WI5Wo6go1-BbG3XbLo1lbneGtP7kO-Hcp3Lur8tNJVMfQvGKmdMc-wWOGzLGItW8JxcktXmJxWxcUUVar6iCLoidCb3Sm0YfqlA",
+  "Nonce": "637190999034411802.MTk2M2E3ZDgtZTRhNC00NWY4LWE0M2EtMjgwNDgzYzExNmEzNGRjYTkzY2MtMTQwZS00YjNmLTg0OGMtN2IzMTg5MzlhZTQ4",
+  "Raw": {
+    "client_id": "mvcclient",
+    "redirect_uri": "https://localhost:7001/signin-oidc",
+    "response_type": "code id_token",
+    "scope": "openid",
+    "response_mode": "form_post",
+    "nonce": "637190999034411802.MTk2M2E3ZDgtZTRhNC00NWY4LWE0M2EtMjgwNDgzYzExNmEzNGRjYTkzY2MtMTQwZS00YjNmLTg0OGMtN2IzMTg5MzlhZTQ4",
+    "state": "CfDJ8J9myGZ5GbdOqIfOtsM_BFBODoMFzhdNSuEALZ8orfJtASBwp-jP9es3UviR_zS3j6pmI_Td5Ojj_5riaXYtvd88jELwe7w5z8wEa1kjaSw7BZ0V-lQayLLQn5uxlwxxgfEPJOvc9jbeD21vEd_uM8Dmb9bGki4R30VuYMRMrT7FcCPm1jeBvfG_gVO7kFj_yH01bpxu8LBWKTs3678vRvNMhEFP1v2WI5Wo6go1-BbG3XbLo1lbneGtP7kO-Hcp3Lur8tNJVMfQvGKmdMc-wWOGzLGItW8JxcktXmJxWxcUUVar6iCLoidCb3Sm0YfqlA",
+    "x-client-SKU": "ID_NETSTANDARD1_4",
+    "x-client-ver": "5.2.0.0"
+  }
+}
+2020-03-06 21:58:23.710 +08:00 [INF] Showing login: User is not authenticated
+2020-03-06 21:58:32.496 +08:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2020-03-06 21:58:32.524 +08:00 [INF] {
+  "Name": "User Login Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1000,
+  "Username": "alice",
+  "SubjectId": "acf4fe86-239a-481c-b3f5-b01ae1d4e62f",
+  "DisplayName": "alice",
+  "Endpoint": "UI",
+  "ActivityId": "0HLU1QPNAEI1B:00000003",
+  "TimeStamp": "2020-03-06T13:58:32Z",
+  "ProcessId": 11316,
+  "LocalIpAddress": "::1:5001",
+  "RemoteIpAddress": "::1"
+}
+2020-03-06 21:58:32.583 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2020-03-06 21:58:32.602 +08:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "mvcclient",
+  "ClientName": "MVC 客户端",
+  "RedirectUri": "https://localhost:7001/signin-oidc",
+  "AllowedRedirectUris": [
+    "https://localhost:7001/signin-oidc"
+  ],
+  "SubjectId": "acf4fe86-239a-481c-b3f5-b01ae1d4e62f",
+  "ResponseType": "code id_token",
+  "ResponseMode": "form_post",
+  "GrantType": "hybrid",
+  "RequestedScopes": "openid",
+  "State": "CfDJ8J9myGZ5GbdOqIfOtsM_BFBODoMFzhdNSuEALZ8orfJtASBwp-jP9es3UviR_zS3j6pmI_Td5Ojj_5riaXYtvd88jELwe7w5z8wEa1kjaSw7BZ0V-lQayLLQn5uxlwxxgfEPJOvc9jbeD21vEd_uM8Dmb9bGki4R30VuYMRMrT7FcCPm1jeBvfG_gVO7kFj_yH01bpxu8LBWKTs3678vRvNMhEFP1v2WI5Wo6go1-BbG3XbLo1lbneGtP7kO-Hcp3Lur8tNJVMfQvGKmdMc-wWOGzLGItW8JxcktXmJxWxcUUVar6iCLoidCb3Sm0YfqlA",
+  "Nonce": "637190999034411802.MTk2M2E3ZDgtZTRhNC00NWY4LWE0M2EtMjgwNDgzYzExNmEzNGRjYTkzY2MtMTQwZS00YjNmLTg0OGMtN2IzMTg5MzlhZTQ4",
+  "SessionId": "46526a881863628a4b47a6cc24131e5d",
+  "Raw": {
+    "client_id": "mvcclient",
+    "redirect_uri": "https://localhost:7001/signin-oidc",
+    "response_type": "code id_token",
+    "scope": "openid",
+    "response_mode": "form_post",
+    "nonce": "637190999034411802.MTk2M2E3ZDgtZTRhNC00NWY4LWE0M2EtMjgwNDgzYzExNmEzNGRjYTkzY2MtMTQwZS00YjNmLTg0OGMtN2IzMTg5MzlhZTQ4",
+    "state": "CfDJ8J9myGZ5GbdOqIfOtsM_BFBODoMFzhdNSuEALZ8orfJtASBwp-jP9es3UviR_zS3j6pmI_Td5Ojj_5riaXYtvd88jELwe7w5z8wEa1kjaSw7BZ0V-lQayLLQn5uxlwxxgfEPJOvc9jbeD21vEd_uM8Dmb9bGki4R30VuYMRMrT7FcCPm1jeBvfG_gVO7kFj_yH01bpxu8LBWKTs3678vRvNMhEFP1v2WI5Wo6go1-BbG3XbLo1lbneGtP7kO-Hcp3Lur8tNJVMfQvGKmdMc-wWOGzLGItW8JxcktXmJxWxcUUVar6iCLoidCb3Sm0YfqlA",
+    "x-client-SKU": "ID_NETSTANDARD1_4",
+    "x-client-ver": "5.2.0.0"
+  }
+}
+2020-03-06 21:58:32.662 +08:00 [INF] Showing consent: User has not yet consented
+2020-03-06 21:59:18.225 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2020-03-06 21:59:18.236 +08:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "mvcclient",
+  "ClientName": "MVC 客户端",
+  "RedirectUri": "https://localhost:7001/signin-oidc",
+  "AllowedRedirectUris": [
+    "https://localhost:7001/signin-oidc"
+  ],
+  "SubjectId": "acf4fe86-239a-481c-b3f5-b01ae1d4e62f",
+  "ResponseType": "code id_token",
+  "ResponseMode": "form_post",
+  "GrantType": "hybrid",
+  "RequestedScopes": "openid",
+  "State": "CfDJ8J9myGZ5GbdOqIfOtsM_BFBODoMFzhdNSuEALZ8orfJtASBwp-jP9es3UviR_zS3j6pmI_Td5Ojj_5riaXYtvd88jELwe7w5z8wEa1kjaSw7BZ0V-lQayLLQn5uxlwxxgfEPJOvc9jbeD21vEd_uM8Dmb9bGki4R30VuYMRMrT7FcCPm1jeBvfG_gVO7kFj_yH01bpxu8LBWKTs3678vRvNMhEFP1v2WI5Wo6go1-BbG3XbLo1lbneGtP7kO-Hcp3Lur8tNJVMfQvGKmdMc-wWOGzLGItW8JxcktXmJxWxcUUVar6iCLoidCb3Sm0YfqlA",
+  "Nonce": "637190999034411802.MTk2M2E3ZDgtZTRhNC00NWY4LWE0M2EtMjgwNDgzYzExNmEzNGRjYTkzY2MtMTQwZS00YjNmLTg0OGMtN2IzMTg5MzlhZTQ4",
+  "SessionId": "46526a881863628a4b47a6cc24131e5d",
+  "Raw": {
+    "client_id": "mvcclient",
+    "redirect_uri": "https://localhost:7001/signin-oidc",
+    "response_type": "code id_token",
+    "scope": "openid",
+    "response_mode": "form_post",
+    "nonce": "637190999034411802.MTk2M2E3ZDgtZTRhNC00NWY4LWE0M2EtMjgwNDgzYzExNmEzNGRjYTkzY2MtMTQwZS00YjNmLTg0OGMtN2IzMTg5MzlhZTQ4",
+    "state": "CfDJ8J9myGZ5GbdOqIfOtsM_BFBODoMFzhdNSuEALZ8orfJtASBwp-jP9es3UviR_zS3j6pmI_Td5Ojj_5riaXYtvd88jELwe7w5z8wEa1kjaSw7BZ0V-lQayLLQn5uxlwxxgfEPJOvc9jbeD21vEd_uM8Dmb9bGki4R30VuYMRMrT7FcCPm1jeBvfG_gVO7kFj_yH01bpxu8LBWKTs3678vRvNMhEFP1v2WI5Wo6go1-BbG3XbLo1lbneGtP7kO-Hcp3Lur8tNJVMfQvGKmdMc-wWOGzLGItW8JxcktXmJxWxcUUVar6iCLoidCb3Sm0YfqlA",
+    "x-client-SKU": "ID_NETSTANDARD1_4",
+    "x-client-ver": "5.2.0.0"
+  }
+}
+2020-03-06 21:59:18.263 +08:00 [INF] User consented to scopes: ["openid"]
+2020-03-06 21:59:18.452 +08:00 [INF] {
+  "Name": "Token Issued Success",
+  "Category": "Token",
+  "EventType": "Success",
+  "Id": 2000,
+  "ClientId": "mvcclient",
+  "ClientName": "MVC 客户端",
+  "RedirectUri": "https://localhost:7001/signin-oidc",
+  "Endpoint": "Authorize",
+  "SubjectId": "acf4fe86-239a-481c-b3f5-b01ae1d4e62f",
+  "Scopes": "openid",
+  "GrantType": "hybrid",
+  "Tokens": [
+    {
+      "TokenType": "id_token",
+      "TokenValue": "****4vbA"
+    },
+    {
+      "TokenType": "code",
+      "TokenValue": "****0b07"
+    }
+  ],
+  "ActivityId": "0HLU1QPNAEI1B:00000008",
+  "TimeStamp": "2020-03-06T13:59:18Z",
+  "ProcessId": 11316,
+  "LocalIpAddress": "::1:5001",
+  "RemoteIpAddress": "::1"
+}
+2020-03-06 21:59:18.460 +08:00 [INF] Authorize endpoint response
+{
+  "SubjectId": "acf4fe86-239a-481c-b3f5-b01ae1d4e62f",
+  "ClientId": "mvcclient",
+  "RedirectUri": "https://localhost:7001/signin-oidc",
+  "State": "CfDJ8J9myGZ5GbdOqIfOtsM_BFBODoMFzhdNSuEALZ8orfJtASBwp-jP9es3UviR_zS3j6pmI_Td5Ojj_5riaXYtvd88jELwe7w5z8wEa1kjaSw7BZ0V-lQayLLQn5uxlwxxgfEPJOvc9jbeD21vEd_uM8Dmb9bGki4R30VuYMRMrT7FcCPm1jeBvfG_gVO7kFj_yH01bpxu8LBWKTs3678vRvNMhEFP1v2WI5Wo6go1-BbG3XbLo1lbneGtP7kO-Hcp3Lur8tNJVMfQvGKmdMc-wWOGzLGItW8JxcktXmJxWxcUUVar6iCLoidCb3Sm0YfqlA",
+  "Scope": "openid"
+}
+2020-03-06 21:59:18.486 +08:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2020-03-06 21:59:18.847 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2020-03-06 21:59:18.894 +08:00 [INF] {
+  "Name": "Client Authentication Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1010,
+  "ClientId": "mvcclient",
+  "AuthenticationMethod": "SharedSecret",
+  "ActivityId": "0HLU1QPNAEI1C:00000003",
+  "TimeStamp": "2020-03-06T13:59:18Z",
+  "ProcessId": 11316,
+  "LocalIpAddress": "::1:5001",
+  "RemoteIpAddress": "::1"
+}
+2020-03-06 21:59:18.941 +08:00 [INF] Token request validation success
+{
+  "ClientId": "mvcclient",
+  "ClientName": "MVC 客户端",
+  "GrantType": "authorization_code",
+  "AuthorizationCode": "8819ec9721fe66f15a566cdbb874c286db4ef296ed3cb585f39e3ac6021c0b07",
+  "Raw": {
+    "client_id": "mvcclient",
+    "client_secret": "***REDACTED***",
+    "code": "8819ec9721fe66f15a566cdbb874c286db4ef296ed3cb585f39e3ac6021c0b07",
+    "grant_type": "authorization_code",
+    "redirect_uri": "https://localhost:7001/signin-oidc"
+  }
+}
+2020-03-06 21:59:19.006 +08:00 [INF] {
+  "Name": "Token Issued Success",
+  "Category": "Token",
+  "EventType": "Success",
+  "Id": 2000,
+  "ClientId": "mvcclient",
+  "ClientName": "MVC 客户端",
+  "Endpoint": "Token",
+  "Scopes": "openid",
+  "GrantType": "authorization_code",
+  "Tokens": [
+    {
+      "TokenType": "id_token",
+      "TokenValue": "****vrGA"
+    },
+    {
+      "TokenType": "access_token",
+      "TokenValue": "****af1g"
+    }
+  ],
+  "ActivityId": "0HLU1QPNAEI1C:00000003",
+  "TimeStamp": "2020-03-06T13:59:19Z",
+  "ProcessId": 11316,
+  "LocalIpAddress": "::1:5001",
+  "RemoteIpAddress": "::1"
+}
+2020-03-06 21:59:19.031 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.UserInfoEndpoint for /connect/userinfo
+2020-03-06 21:59:19.155 +08:00 [INF] Profile service returned to the following claim types: sub
+2020-03-06 22:06:22.197 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2020-03-06 22:07:28.097 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2020-03-06 22:09:13.597 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2020-03-06 22:17:22.831 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2020-03-06 22:22:17.719 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2020-03-06 22:22:34.259 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2020-03-06 22:22:34.566 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2020-03-06 22:22:35.837 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2020-03-06 22:22:35.966 +08:00 [ERR] Requested scope not allowed: restapi
+2020-03-06 22:22:35.970 +08:00 [ERR] Request validation failed
+2020-03-06 22:22:35.989 +08:00 [INF] {
+  "ClientId": "mvcclient",
+  "ClientName": "MVC 客户端",
+  "RedirectUri": "https://localhost:7001/signin-oidc",
+  "AllowedRedirectUris": [
+    "https://localhost:7001/signin-oidc"
+  ],
+  "SubjectId": "anonymous",
+  "ResponseType": "code id_token",
+  "ResponseMode": "form_post",
+  "GrantType": "hybrid",
+  "RequestedScopes": "openid restapi",
+  "State": "CfDJ8J9myGZ5GbdOqIfOtsM_BFD2H46VLNW7gGnCkZ77wYJVS7WHT_6krjLhy0oWBxETK5JcGHUia7v0XKn97fP8pVlBGCC0cyaELnFSHAIwZPESUs0s9j4BZ1fqpGCZqV3WHGC2c7_UF7rZtOvEw8WHQjGOG3Cmu-3FYgmZX9yYVITxqS4Hlonc31P1dbNINoSg2Sx1EfMRudMFenaZRjgbRNBIUejkHS7K-hGYigzvR9OXEo4KmCpRgh3O24B_7V-Zlg2CBABhOeQ-ymy6xvORhEcRsNfSoLU1AeyUYQnt302eoqx5YK3t0l7xVcdAmpXBlA",
+  "Raw": {
+    "client_id": "mvcclient",
+    "redirect_uri": "https://localhost:7001/signin-oidc",
+    "response_type": "code id_token",
+    "scope": "openid restapi",
+    "response_mode": "form_post",
+    "nonce": "637191013546937705.ZjA1ZjQzNDgtNThiZC00ZmIxLTk5ZjQtZGFhMzBlZGUxMTRlYjMwYzkxNDMtZmVjMy00NWM4LWE5MTUtOTRmMzU0MWZjZTc2",
+    "state": "CfDJ8J9myGZ5GbdOqIfOtsM_BFD2H46VLNW7gGnCkZ77wYJVS7WHT_6krjLhy0oWBxETK5JcGHUia7v0XKn97fP8pVlBGCC0cyaELnFSHAIwZPESUs0s9j4BZ1fqpGCZqV3WHGC2c7_UF7rZtOvEw8WHQjGOG3Cmu-3FYgmZX9yYVITxqS4Hlonc31P1dbNINoSg2Sx1EfMRudMFenaZRjgbRNBIUejkHS7K-hGYigzvR9OXEo4KmCpRgh3O24B_7V-Zlg2CBABhOeQ-ymy6xvORhEcRsNfSoLU1AeyUYQnt302eoqx5YK3t0l7xVcdAmpXBlA",
+    "x-client-SKU": "ID_NETSTANDARD1_4",
+    "x-client-ver": "5.2.0.0"
+  }
+}
+2020-03-06 22:22:36.019 +08:00 [INF] {
+  "Name": "Token Issued Failure",
+  "Category": "Token",
+  "EventType": "Failure",
+  "Id": 2001,
+  "ClientId": "mvcclient",
+  "ClientName": "MVC 客户端",
+  "RedirectUri": "https://localhost:7001/signin-oidc",
+  "Endpoint": "Authorize",
+  "Scopes": "openid restapi",
+  "GrantType": "hybrid",
+  "Error": "unauthorized_client",
+  "ErrorDescription": "Invalid scope",
+  "ActivityId": "0HLU1R77U9OHN:00000001",
+  "TimeStamp": "2020-03-06T14:22:36Z",
+  "ProcessId": 7204,
+  "LocalIpAddress": "::1:5001",
+  "RemoteIpAddress": "::1"
+}
+2020-03-06 22:26:21.505 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2020-03-06 22:26:39.680 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2020-03-06 22:26:40.025 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2020-03-06 22:26:41.433 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2020-03-06 22:26:41.574 +08:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "mvcclient",
+  "ClientName": "MVC 客户端",
+  "RedirectUri": "https://localhost:7001/signin-oidc",
+  "AllowedRedirectUris": [
+    "https://localhost:7001/signin-oidc"
+  ],
+  "SubjectId": "anonymous",
+  "ResponseType": "code id_token",
+  "ResponseMode": "form_post",
+  "GrantType": "hybrid",
+  "RequestedScopes": "openid profile email restapi",
+  "State": "CfDJ8J9myGZ5GbdOqIfOtsM_BFCEj9U42tgK9ZbYJiQgZCBEgdVY0t1LI8fsjhTR-e-ljvXxmNSdDl41DMbrvon8w9aQjJ6EXW-WLtWMPTPf0lI0Nra6Edg6rPsfZR5QT6g6-dDEtmYntVBAAlKF2a1oJubBBRhoebmbsxrSRVDtOPRa_X2zmY1aFzuBz5vo3EO2kqHMh_IVdHg0qq6YCUZDw-_wTsSg2Sk8g3RM2GAnP4o-rvetu7Xg8IVeB_Su9HgkTb4Ne_tKKB6U8CjEECL1-HYkRsBfSxxncwjIWcGErH0aLCn0qLI-2IwYyP0YuHVrsA",
+  "Nonce": "637191016001586423.N2I4ZGYyMWItM2I2Mi00YTVmLTk3MmItYzdlODFiNTZlN2VjYTRiNzk2MzktY2Q2Zi00OGQxLThhM2UtMTdmZWY4MDQ4ZDA5",
+  "Raw": {
+    "client_id": "mvcclient",
+    "redirect_uri": "https://localhost:7001/signin-oidc",
+    "response_type": "code id_token",
+    "scope": "openid profile email restapi",
+    "response_mode": "form_post",
+    "nonce": "637191016001586423.N2I4ZGYyMWItM2I2Mi00YTVmLTk3MmItYzdlODFiNTZlN2VjYTRiNzk2MzktY2Q2Zi00OGQxLThhM2UtMTdmZWY4MDQ4ZDA5",
+    "state": "CfDJ8J9myGZ5GbdOqIfOtsM_BFCEj9U42tgK9ZbYJiQgZCBEgdVY0t1LI8fsjhTR-e-ljvXxmNSdDl41DMbrvon8w9aQjJ6EXW-WLtWMPTPf0lI0Nra6Edg6rPsfZR5QT6g6-dDEtmYntVBAAlKF2a1oJubBBRhoebmbsxrSRVDtOPRa_X2zmY1aFzuBz5vo3EO2kqHMh_IVdHg0qq6YCUZDw-_wTsSg2Sk8g3RM2GAnP4o-rvetu7Xg8IVeB_Su9HgkTb4Ne_tKKB6U8CjEECL1-HYkRsBfSxxncwjIWcGErH0aLCn0qLI-2IwYyP0YuHVrsA",
+    "x-client-SKU": "ID_NETSTANDARD1_4",
+    "x-client-ver": "5.2.0.0"
+  }
+}
+2020-03-06 22:26:41.591 +08:00 [INF] Showing login: User is not authenticated
+2020-03-06 22:26:58.528 +08:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2020-03-06 22:26:58.558 +08:00 [INF] {
+  "Name": "User Login Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1000,
+  "Username": "alice",
+  "SubjectId": "acf4fe86-239a-481c-b3f5-b01ae1d4e62f",
+  "DisplayName": "alice",
+  "Endpoint": "UI",
+  "ActivityId": "0HLU1R9H2OQJ4:00000003",
+  "TimeStamp": "2020-03-06T14:26:58Z",
+  "ProcessId": 2364,
+  "LocalIpAddress": "::1:5001",
+  "RemoteIpAddress": "::1"
+}
+2020-03-06 22:26:58.631 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2020-03-06 22:26:58.650 +08:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "mvcclient",
+  "ClientName": "MVC 客户端",
+  "RedirectUri": "https://localhost:7001/signin-oidc",
+  "AllowedRedirectUris": [
+    "https://localhost:7001/signin-oidc"
+  ],
+  "SubjectId": "acf4fe86-239a-481c-b3f5-b01ae1d4e62f",
+  "ResponseType": "code id_token",
+  "ResponseMode": "form_post",
+  "GrantType": "hybrid",
+  "RequestedScopes": "openid profile email restapi",
+  "State": "CfDJ8J9myGZ5GbdOqIfOtsM_BFCEj9U42tgK9ZbYJiQgZCBEgdVY0t1LI8fsjhTR-e-ljvXxmNSdDl41DMbrvon8w9aQjJ6EXW-WLtWMPTPf0lI0Nra6Edg6rPsfZR5QT6g6-dDEtmYntVBAAlKF2a1oJubBBRhoebmbsxrSRVDtOPRa_X2zmY1aFzuBz5vo3EO2kqHMh_IVdHg0qq6YCUZDw-_wTsSg2Sk8g3RM2GAnP4o-rvetu7Xg8IVeB_Su9HgkTb4Ne_tKKB6U8CjEECL1-HYkRsBfSxxncwjIWcGErH0aLCn0qLI-2IwYyP0YuHVrsA",
+  "Nonce": "637191016001586423.N2I4ZGYyMWItM2I2Mi00YTVmLTk3MmItYzdlODFiNTZlN2VjYTRiNzk2MzktY2Q2Zi00OGQxLThhM2UtMTdmZWY4MDQ4ZDA5",
+  "SessionId": "100b1e2d01039502c1f0e34c08adaf82",
+  "Raw": {
+    "client_id": "mvcclient",
+    "redirect_uri": "https://localhost:7001/signin-oidc",
+    "response_type": "code id_token",
+    "scope": "openid profile email restapi",
+    "response_mode": "form_post",
+    "nonce": "637191016001586423.N2I4ZGYyMWItM2I2Mi00YTVmLTk3MmItYzdlODFiNTZlN2VjYTRiNzk2MzktY2Q2Zi00OGQxLThhM2UtMTdmZWY4MDQ4ZDA5",
+    "state": "CfDJ8J9myGZ5GbdOqIfOtsM_BFCEj9U42tgK9ZbYJiQgZCBEgdVY0t1LI8fsjhTR-e-ljvXxmNSdDl41DMbrvon8w9aQjJ6EXW-WLtWMPTPf0lI0Nra6Edg6rPsfZR5QT6g6-dDEtmYntVBAAlKF2a1oJubBBRhoebmbsxrSRVDtOPRa_X2zmY1aFzuBz5vo3EO2kqHMh_IVdHg0qq6YCUZDw-_wTsSg2Sk8g3RM2GAnP4o-rvetu7Xg8IVeB_Su9HgkTb4Ne_tKKB6U8CjEECL1-HYkRsBfSxxncwjIWcGErH0aLCn0qLI-2IwYyP0YuHVrsA",
+    "x-client-SKU": "ID_NETSTANDARD1_4",
+    "x-client-ver": "5.2.0.0"
+  }
+}
+2020-03-06 22:26:58.718 +08:00 [INF] Showing consent: User has not yet consented
+2020-03-06 22:36:27.851 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2020-03-06 22:36:28.117 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2020-03-06 22:36:28.322 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2020-03-06 22:36:28.351 +08:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "mvcclient",
+  "ClientName": "MVC 客户端",
+  "RedirectUri": "https://localhost:7001/signin-oidc",
+  "AllowedRedirectUris": [
+    "https://localhost:7001/signin-oidc"
+  ],
+  "SubjectId": "acf4fe86-239a-481c-b3f5-b01ae1d4e62f",
+  "ResponseType": "code id_token",
+  "ResponseMode": "form_post",
+  "GrantType": "hybrid",
+  "RequestedScopes": "openid profile email restapi",
+  "State": "CfDJ8J9myGZ5GbdOqIfOtsM_BFAmWGdwRKJxfrewP-f29OeGLR8UIeh9jPIMXlSvPWps856wBn_gstz4r6c3hqKhlNJysC_Zzp6606NNOG4JxuB8Zyv9QU56Lyp_GqKnIDO_KwfcqjmDnkYhFy7VkfOpPQc6ImXRcvW-ltGCJLbMfhX3L_uMI-H0wnLTXBFa_ggSfsFMbL3mbP4Z0Sag9y1X4JYeU7J_XCC8bMCw0all2iFe550warbDX3a5ej7onDV48ybkDKZdeZg5fhnE4FivxYA3olgXKYLnNP_8nhZbiUhude5S2aKv2bnCECQeJZ8Q1w",
+  "Nonce": "637191021881803703.NWI5MTE1YzctYzc5NC00MTYwLTliY2UtYTY2NDA1MmY4NDA0NGEzZGY2ZjUtYTIwZC00MjkwLWIwNjEtMTEzZDJhZDU3MTky",
+  "SessionId": "100b1e2d01039502c1f0e34c08adaf82",
+  "Raw": {
+    "client_id": "mvcclient",
+    "redirect_uri": "https://localhost:7001/signin-oidc",
+    "response_type": "code id_token",
+    "scope": "openid profile email restapi",
+    "response_mode": "form_post",
+    "nonce": "637191021881803703.NWI5MTE1YzctYzc5NC00MTYwLTliY2UtYTY2NDA1MmY4NDA0NGEzZGY2ZjUtYTIwZC00MjkwLWIwNjEtMTEzZDJhZDU3MTky",
+    "state": "CfDJ8J9myGZ5GbdOqIfOtsM_BFAmWGdwRKJxfrewP-f29OeGLR8UIeh9jPIMXlSvPWps856wBn_gstz4r6c3hqKhlNJysC_Zzp6606NNOG4JxuB8Zyv9QU56Lyp_GqKnIDO_KwfcqjmDnkYhFy7VkfOpPQc6ImXRcvW-ltGCJLbMfhX3L_uMI-H0wnLTXBFa_ggSfsFMbL3mbP4Z0Sag9y1X4JYeU7J_XCC8bMCw0all2iFe550warbDX3a5ej7onDV48ybkDKZdeZg5fhnE4FivxYA3olgXKYLnNP_8nhZbiUhude5S2aKv2bnCECQeJZ8Q1w",
+    "x-client-SKU": "ID_NETSTANDARD1_4",
+    "x-client-ver": "5.2.0.0"
+  }
+}
+2020-03-06 22:36:28.369 +08:00 [INF] Showing consent: User has not yet consented
+2020-03-06 22:36:39.377 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2020-03-06 22:36:39.394 +08:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "mvcclient",
+  "ClientName": "MVC 客户端",
+  "RedirectUri": "https://localhost:7001/signin-oidc",
+  "AllowedRedirectUris": [
+    "https://localhost:7001/signin-oidc"
+  ],
+  "SubjectId": "acf4fe86-239a-481c-b3f5-b01ae1d4e62f",
+  "ResponseType": "code id_token",
+  "ResponseMode": "form_post",
+  "GrantType": "hybrid",
+  "RequestedScopes": "openid profile email restapi",
+  "State": "CfDJ8J9myGZ5GbdOqIfOtsM_BFAmWGdwRKJxfrewP-f29OeGLR8UIeh9jPIMXlSvPWps856wBn_gstz4r6c3hqKhlNJysC_Zzp6606NNOG4JxuB8Zyv9QU56Lyp_GqKnIDO_KwfcqjmDnkYhFy7VkfOpPQc6ImXRcvW-ltGCJLbMfhX3L_uMI-H0wnLTXBFa_ggSfsFMbL3mbP4Z0Sag9y1X4JYeU7J_XCC8bMCw0all2iFe550warbDX3a5ej7onDV48ybkDKZdeZg5fhnE4FivxYA3olgXKYLnNP_8nhZbiUhude5S2aKv2bnCECQeJZ8Q1w",
+  "Nonce": "637191021881803703.NWI5MTE1YzctYzc5NC00MTYwLTliY2UtYTY2NDA1MmY4NDA0NGEzZGY2ZjUtYTIwZC00MjkwLWIwNjEtMTEzZDJhZDU3MTky",
+  "SessionId": "100b1e2d01039502c1f0e34c08adaf82",
+  "Raw": {
+    "client_id": "mvcclient",
+    "redirect_uri": "https://localhost:7001/signin-oidc",
+    "response_type": "code id_token",
+    "scope": "openid profile email restapi",
+    "response_mode": "form_post",
+    "nonce": "637191021881803703.NWI5MTE1YzctYzc5NC00MTYwLTliY2UtYTY2NDA1MmY4NDA0NGEzZGY2ZjUtYTIwZC00MjkwLWIwNjEtMTEzZDJhZDU3MTky",
+    "state": "CfDJ8J9myGZ5GbdOqIfOtsM_BFAmWGdwRKJxfrewP-f29OeGLR8UIeh9jPIMXlSvPWps856wBn_gstz4r6c3hqKhlNJysC_Zzp6606NNOG4JxuB8Zyv9QU56Lyp_GqKnIDO_KwfcqjmDnkYhFy7VkfOpPQc6ImXRcvW-ltGCJLbMfhX3L_uMI-H0wnLTXBFa_ggSfsFMbL3mbP4Z0Sag9y1X4JYeU7J_XCC8bMCw0all2iFe550warbDX3a5ej7onDV48ybkDKZdeZg5fhnE4FivxYA3olgXKYLnNP_8nhZbiUhude5S2aKv2bnCECQeJZ8Q1w",
+    "x-client-SKU": "ID_NETSTANDARD1_4",
+    "x-client-ver": "5.2.0.0"
+  }
+}
+2020-03-06 22:36:39.420 +08:00 [INF] User consented to scopes: ["openid","profile","email","restapi"]
+2020-03-06 22:36:39.681 +08:00 [INF] {
+  "Name": "Token Issued Success",
+  "Category": "Token",
+  "EventType": "Success",
+  "Id": 2000,
+  "ClientId": "mvcclient",
+  "ClientName": "MVC 客户端",
+  "RedirectUri": "https://localhost:7001/signin-oidc",
+  "Endpoint": "Authorize",
+  "SubjectId": "acf4fe86-239a-481c-b3f5-b01ae1d4e62f",
+  "Scopes": "openid profile email restapi",
+  "GrantType": "hybrid",
+  "Tokens": [
+    {
+      "TokenType": "id_token",
+      "TokenValue": "****ML5w"
+    },
+    {
+      "TokenType": "code",
+      "TokenValue": "****182d"
+    }
+  ],
+  "ActivityId": "0HLU1R9H2OQJ6:00000004",
+  "TimeStamp": "2020-03-06T14:36:39Z",
+  "ProcessId": 2364,
+  "LocalIpAddress": "::1:5001",
+  "RemoteIpAddress": "::1"
+}
+2020-03-06 22:36:39.698 +08:00 [INF] Authorize endpoint response
+{
+  "SubjectId": "acf4fe86-239a-481c-b3f5-b01ae1d4e62f",
+  "ClientId": "mvcclient",
+  "RedirectUri": "https://localhost:7001/signin-oidc",
+  "State": "CfDJ8J9myGZ5GbdOqIfOtsM_BFAmWGdwRKJxfrewP-f29OeGLR8UIeh9jPIMXlSvPWps856wBn_gstz4r6c3hqKhlNJysC_Zzp6606NNOG4JxuB8Zyv9QU56Lyp_GqKnIDO_KwfcqjmDnkYhFy7VkfOpPQc6ImXRcvW-ltGCJLbMfhX3L_uMI-H0wnLTXBFa_ggSfsFMbL3mbP4Z0Sag9y1X4JYeU7J_XCC8bMCw0all2iFe550warbDX3a5ej7onDV48ybkDKZdeZg5fhnE4FivxYA3olgXKYLnNP_8nhZbiUhude5S2aKv2bnCECQeJZ8Q1w",
+  "Scope": "openid profile email restapi"
+}
+2020-03-06 22:36:39.738 +08:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2020-03-06 22:36:40.096 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2020-03-06 22:36:40.178 +08:00 [INF] {
+  "Name": "Client Authentication Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1010,
+  "ClientId": "mvcclient",
+  "AuthenticationMethod": "SharedSecret",
+  "ActivityId": "0HLU1R9H2OQJ5:00000003",
+  "TimeStamp": "2020-03-06T14:36:40Z",
+  "ProcessId": 2364,
+  "LocalIpAddress": "::1:5001",
+  "RemoteIpAddress": "::1"
+}
+2020-03-06 22:36:40.270 +08:00 [INF] Token request validation success
+{
+  "ClientId": "mvcclient",
+  "ClientName": "MVC 客户端",
+  "GrantType": "authorization_code",
+  "AuthorizationCode": "f8403619fe7ebde7158549e24c99a75cde9ab132cd57cc02d88712cbc6f1182d",
+  "Raw": {
+    "client_id": "mvcclient",
+    "client_secret": "***REDACTED***",
+    "code": "f8403619fe7ebde7158549e24c99a75cde9ab132cd57cc02d88712cbc6f1182d",
+    "grant_type": "authorization_code",
+    "redirect_uri": "https://localhost:7001/signin-oidc"
+  }
+}
+2020-03-06 22:36:40.336 +08:00 [INF] {
+  "Name": "Token Issued Success",
+  "Category": "Token",
+  "EventType": "Success",
+  "Id": 2000,
+  "ClientId": "mvcclient",
+  "ClientName": "MVC 客户端",
+  "Endpoint": "Token",
+  "Scopes": "openid profile email restapi",
+  "GrantType": "authorization_code",
+  "Tokens": [
+    {
+      "TokenType": "id_token",
+      "TokenValue": "****dt5w"
+    },
+    {
+      "TokenType": "access_token",
+      "TokenValue": "****2b4Q"
+    }
+  ],
+  "ActivityId": "0HLU1R9H2OQJ5:00000003",
+  "TimeStamp": "2020-03-06T14:36:40Z",
+  "ProcessId": 2364,
+  "LocalIpAddress": "::1:5001",
+  "RemoteIpAddress": "::1"
+}
+2020-03-06 22:36:40.367 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.UserInfoEndpoint for /connect/userinfo
+2020-03-06 22:36:40.518 +08:00 [INF] Profile service returned to the following claim types: sub name given_name family_name email email_verified website preferred_username
+2020-03-06 22:42:23.229 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2020-03-06 22:42:23.385 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2020-03-06 22:42:23.480 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2020-03-06 22:42:23.482 +08:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "mvcclient",
+  "ClientName": "MVC 客户端",
+  "RedirectUri": "https://localhost:7001/signin-oidc",
+  "AllowedRedirectUris": [
+    "https://localhost:7001/signin-oidc"
+  ],
+  "SubjectId": "anonymous",
+  "ResponseType": "code id_token",
+  "ResponseMode": "form_post",
+  "GrantType": "hybrid",
+  "RequestedScopes": "openid profile email restapi",
+  "State": "CfDJ8J9myGZ5GbdOqIfOtsM_BFBY0iO1zmPLlKqxgHzUHXw5DLaLLm4cjcSIXIiRalnzeZAZ4SptgefRCt-DlT5OwIJU-KAXxDuyVqcwyHSL_fXEQT7yB8QunhJhozvYC7aEGW_1PTixZzRNtSq98wwSoZeQtBSvrJiXMS6e0CXWdG3QxwOZUOjRt120M2S0_Jm-lDo9Zq7OOct0YSAlUHb7o9xYe385VhDJ8g94f8t2GEhWsO5tLnu96yestIRCiGGSFz72M1ciYJedKGfYGvSnJ-jSm-d0iuAHq3ipo-Xj9ZjORD89x_KC5rURrb4Vkld57CXz8rRxp7i1IpLPsLKBMfY",
+  "Nonce": "637191025434304863.Y2FhY2RhY2QtMTNlNS00OWNmLTllM2YtNTk2NDE5N2FiZGRhNDcwNGMzZjQtMzNkMi00NTIwLTljZGUtYWQ1MzdlOTliNTFm",
+  "Raw": {
+    "client_id": "mvcclient",
+    "redirect_uri": "https://localhost:7001/signin-oidc",
+    "response_type": "code id_token",
+    "scope": "openid profile email restapi",
+    "response_mode": "form_post",
+    "nonce": "637191025434304863.Y2FhY2RhY2QtMTNlNS00OWNmLTllM2YtNTk2NDE5N2FiZGRhNDcwNGMzZjQtMzNkMi00NTIwLTljZGUtYWQ1MzdlOTliNTFm",
+    "state": "CfDJ8J9myGZ5GbdOqIfOtsM_BFBY0iO1zmPLlKqxgHzUHXw5DLaLLm4cjcSIXIiRalnzeZAZ4SptgefRCt-DlT5OwIJU-KAXxDuyVqcwyHSL_fXEQT7yB8QunhJhozvYC7aEGW_1PTixZzRNtSq98wwSoZeQtBSvrJiXMS6e0CXWdG3QxwOZUOjRt120M2S0_Jm-lDo9Zq7OOct0YSAlUHb7o9xYe385VhDJ8g94f8t2GEhWsO5tLnu96yestIRCiGGSFz72M1ciYJedKGfYGvSnJ-jSm-d0iuAHq3ipo-Xj9ZjORD89x_KC5rURrb4Vkld57CXz8rRxp7i1IpLPsLKBMfY",
+    "x-client-SKU": "ID_NETSTANDARD1_4",
+    "x-client-ver": "5.2.0.0"
+  }
+}
+2020-03-06 22:42:23.488 +08:00 [INF] Showing login: User is not authenticated
+2020-03-06 23:50:50.269 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2020-03-06 23:50:50.392 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2020-03-06 23:51:29.050 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2020-03-06 23:51:29.239 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2020-03-06 23:51:29.349 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2020-03-06 23:51:29.350 +08:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "mvcclient",
+  "ClientName": "MVC 客户端",
+  "RedirectUri": "https://localhost:7001/signin-oidc",
+  "AllowedRedirectUris": [
+    "https://localhost:7001/signin-oidc"
+  ],
+  "SubjectId": "anonymous",
+  "ResponseType": "code id_token",
+  "ResponseMode": "form_post",
+  "GrantType": "hybrid",
+  "RequestedScopes": "openid profile email restapi",
+  "State": "CfDJ8J9myGZ5GbdOqIfOtsM_BFA5P0s5sedBbePDHfWcZeMlqNy9j8ScUMVXqymrlke2hKsbRcXPD0aD3X9o2lncf1p4cAj3odhQ9wWyIPqOfQp-lzijUSQgLEb7ocWZtp8q4xbTJqq9slWZnO2loU60WK5gfVEFLwasltWAnWUiURO24NkrnHw7AwShWdeoR1DsXx4-xHcLLoKXf7xJcFW0_CKzgKRZhNW84yinOUba3rjqcEGnx7cmKekXsGEO-TiOQhh9ugJ3XbkFBl2YSedxnE9ZMaNjuEwedXGqZaSBzmx4Avr3OWPWAOdPAD4HmDPBa71vS-tu4MxC9HefnJY7L6Q",
+  "Nonce": "637191066893147034.YjdiNmI3MjctMzlmMi00MjFkLTgwNTEtZjZmMWE3MzMyNGVhOTI5OTdjZmUtNWM3MS00NTE2LTgxY2YtZWUzYzI1YTU3Yjhh",
+  "Raw": {
+    "client_id": "mvcclient",
+    "redirect_uri": "https://localhost:7001/signin-oidc",
+    "response_type": "code id_token",
+    "scope": "openid profile email restapi",
+    "response_mode": "form_post",
+    "nonce": "637191066893147034.YjdiNmI3MjctMzlmMi00MjFkLTgwNTEtZjZmMWE3MzMyNGVhOTI5OTdjZmUtNWM3MS00NTE2LTgxY2YtZWUzYzI1YTU3Yjhh",
+    "state": "CfDJ8J9myGZ5GbdOqIfOtsM_BFA5P0s5sedBbePDHfWcZeMlqNy9j8ScUMVXqymrlke2hKsbRcXPD0aD3X9o2lncf1p4cAj3odhQ9wWyIPqOfQp-lzijUSQgLEb7ocWZtp8q4xbTJqq9slWZnO2loU60WK5gfVEFLwasltWAnWUiURO24NkrnHw7AwShWdeoR1DsXx4-xHcLLoKXf7xJcFW0_CKzgKRZhNW84yinOUba3rjqcEGnx7cmKekXsGEO-TiOQhh9ugJ3XbkFBl2YSedxnE9ZMaNjuEwedXGqZaSBzmx4Avr3OWPWAOdPAD4HmDPBa71vS-tu4MxC9HefnJY7L6Q",
+    "x-client-SKU": "ID_NETSTANDARD1_4",
+    "x-client-ver": "5.2.0.0"
+  }
+}
+2020-03-06 23:51:29.354 +08:00 [INF] Showing login: User is not authenticated
+2020-03-06 23:51:41.363 +08:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2020-03-06 23:51:41.366 +08:00 [INF] {
+  "Name": "User Login Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1000,
+  "Username": "alice",
+  "SubjectId": "acf4fe86-239a-481c-b3f5-b01ae1d4e62f",
+  "DisplayName": "alice",
+  "Endpoint": "UI",
+  "ActivityId": "0HLU1R9H2OQJM:00000003",
+  "TimeStamp": "2020-03-06T15:51:41Z",
+  "ProcessId": 2364,
+  "LocalIpAddress": "::1:5001",
+  "RemoteIpAddress": "::1"
+}
+2020-03-06 23:51:41.378 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2020-03-06 23:51:41.379 +08:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "mvcclient",
+  "ClientName": "MVC 客户端",
+  "RedirectUri": "https://localhost:7001/signin-oidc",
+  "AllowedRedirectUris": [
+    "https://localhost:7001/signin-oidc"
+  ],
+  "SubjectId": "acf4fe86-239a-481c-b3f5-b01ae1d4e62f",
+  "ResponseType": "code id_token",
+  "ResponseMode": "form_post",
+  "GrantType": "hybrid",
+  "RequestedScopes": "openid profile email restapi",
+  "State": "CfDJ8J9myGZ5GbdOqIfOtsM_BFA5P0s5sedBbePDHfWcZeMlqNy9j8ScUMVXqymrlke2hKsbRcXPD0aD3X9o2lncf1p4cAj3odhQ9wWyIPqOfQp-lzijUSQgLEb7ocWZtp8q4xbTJqq9slWZnO2loU60WK5gfVEFLwasltWAnWUiURO24NkrnHw7AwShWdeoR1DsXx4-xHcLLoKXf7xJcFW0_CKzgKRZhNW84yinOUba3rjqcEGnx7cmKekXsGEO-TiOQhh9ugJ3XbkFBl2YSedxnE9ZMaNjuEwedXGqZaSBzmx4Avr3OWPWAOdPAD4HmDPBa71vS-tu4MxC9HefnJY7L6Q",
+  "Nonce": "637191066893147034.YjdiNmI3MjctMzlmMi00MjFkLTgwNTEtZjZmMWE3MzMyNGVhOTI5OTdjZmUtNWM3MS00NTE2LTgxY2YtZWUzYzI1YTU3Yjhh",
+  "SessionId": "8f3a2f684969d7e44db3151b99865a28",
+  "Raw": {
+    "client_id": "mvcclient",
+    "redirect_uri": "https://localhost:7001/signin-oidc",
+    "response_type": "code id_token",
+    "scope": "openid profile email restapi",
+    "response_mode": "form_post",
+    "nonce": "637191066893147034.YjdiNmI3MjctMzlmMi00MjFkLTgwNTEtZjZmMWE3MzMyNGVhOTI5OTdjZmUtNWM3MS00NTE2LTgxY2YtZWUzYzI1YTU3Yjhh",
+    "state": "CfDJ8J9myGZ5GbdOqIfOtsM_BFA5P0s5sedBbePDHfWcZeMlqNy9j8ScUMVXqymrlke2hKsbRcXPD0aD3X9o2lncf1p4cAj3odhQ9wWyIPqOfQp-lzijUSQgLEb7ocWZtp8q4xbTJqq9slWZnO2loU60WK5gfVEFLwasltWAnWUiURO24NkrnHw7AwShWdeoR1DsXx4-xHcLLoKXf7xJcFW0_CKzgKRZhNW84yinOUba3rjqcEGnx7cmKekXsGEO-TiOQhh9ugJ3XbkFBl2YSedxnE9ZMaNjuEwedXGqZaSBzmx4Avr3OWPWAOdPAD4HmDPBa71vS-tu4MxC9HefnJY7L6Q",
+    "x-client-SKU": "ID_NETSTANDARD1_4",
+    "x-client-ver": "5.2.0.0"
+  }
+}
+2020-03-06 23:51:41.385 +08:00 [INF] Showing consent: User has not yet consented
+2020-03-06 23:51:44.294 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2020-03-06 23:51:44.297 +08:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "mvcclient",
+  "ClientName": "MVC 客户端",
+  "RedirectUri": "https://localhost:7001/signin-oidc",
+  "AllowedRedirectUris": [
+    "https://localhost:7001/signin-oidc"
+  ],
+  "SubjectId": "acf4fe86-239a-481c-b3f5-b01ae1d4e62f",
+  "ResponseType": "code id_token",
+  "ResponseMode": "form_post",
+  "GrantType": "hybrid",
+  "RequestedScopes": "openid profile email restapi",
+  "State": "CfDJ8J9myGZ5GbdOqIfOtsM_BFA5P0s5sedBbePDHfWcZeMlqNy9j8ScUMVXqymrlke2hKsbRcXPD0aD3X9o2lncf1p4cAj3odhQ9wWyIPqOfQp-lzijUSQgLEb7ocWZtp8q4xbTJqq9slWZnO2loU60WK5gfVEFLwasltWAnWUiURO24NkrnHw7AwShWdeoR1DsXx4-xHcLLoKXf7xJcFW0_CKzgKRZhNW84yinOUba3rjqcEGnx7cmKekXsGEO-TiOQhh9ugJ3XbkFBl2YSedxnE9ZMaNjuEwedXGqZaSBzmx4Avr3OWPWAOdPAD4HmDPBa71vS-tu4MxC9HefnJY7L6Q",
+  "Nonce": "637191066893147034.YjdiNmI3MjctMzlmMi00MjFkLTgwNTEtZjZmMWE3MzMyNGVhOTI5OTdjZmUtNWM3MS00NTE2LTgxY2YtZWUzYzI1YTU3Yjhh",
+  "SessionId": "8f3a2f684969d7e44db3151b99865a28",
+  "Raw": {
+    "client_id": "mvcclient",
+    "redirect_uri": "https://localhost:7001/signin-oidc",
+    "response_type": "code id_token",
+    "scope": "openid profile email restapi",
+    "response_mode": "form_post",
+    "nonce": "637191066893147034.YjdiNmI3MjctMzlmMi00MjFkLTgwNTEtZjZmMWE3MzMyNGVhOTI5OTdjZmUtNWM3MS00NTE2LTgxY2YtZWUzYzI1YTU3Yjhh",
+    "state": "CfDJ8J9myGZ5GbdOqIfOtsM_BFA5P0s5sedBbePDHfWcZeMlqNy9j8ScUMVXqymrlke2hKsbRcXPD0aD3X9o2lncf1p4cAj3odhQ9wWyIPqOfQp-lzijUSQgLEb7ocWZtp8q4xbTJqq9slWZnO2loU60WK5gfVEFLwasltWAnWUiURO24NkrnHw7AwShWdeoR1DsXx4-xHcLLoKXf7xJcFW0_CKzgKRZhNW84yinOUba3rjqcEGnx7cmKekXsGEO-TiOQhh9ugJ3XbkFBl2YSedxnE9ZMaNjuEwedXGqZaSBzmx4Avr3OWPWAOdPAD4HmDPBa71vS-tu4MxC9HefnJY7L6Q",
+    "x-client-SKU": "ID_NETSTANDARD1_4",
+    "x-client-ver": "5.2.0.0"
+  }
+}
+2020-03-06 23:51:44.306 +08:00 [INF] User consented to scopes: ["openid","profile","email","restapi"]
+2020-03-06 23:51:44.331 +08:00 [INF] {
+  "Name": "Token Issued Success",
+  "Category": "Token",
+  "EventType": "Success",
+  "Id": 2000,
+  "ClientId": "mvcclient",
+  "ClientName": "MVC 客户端",
+  "RedirectUri": "https://localhost:7001/signin-oidc",
+  "Endpoint": "Authorize",
+  "SubjectId": "acf4fe86-239a-481c-b3f5-b01ae1d4e62f",
+  "Scopes": "openid profile email restapi",
+  "GrantType": "hybrid",
+  "Tokens": [
+    {
+      "TokenType": "id_token",
+      "TokenValue": "****kKOw"
+    },
+    {
+      "TokenType": "code",
+      "TokenValue": "****a04c"
+    }
+  ],
+  "ActivityId": "0HLU1R9H2OQJM:00000008",
+  "TimeStamp": "2020-03-06T15:51:44Z",
+  "ProcessId": 2364,
+  "LocalIpAddress": "::1:5001",
+  "RemoteIpAddress": "::1"
+}
+2020-03-06 23:51:44.333 +08:00 [INF] Authorize endpoint response
+{
+  "SubjectId": "acf4fe86-239a-481c-b3f5-b01ae1d4e62f",
+  "ClientId": "mvcclient",
+  "RedirectUri": "https://localhost:7001/signin-oidc",
+  "State": "CfDJ8J9myGZ5GbdOqIfOtsM_BFA5P0s5sedBbePDHfWcZeMlqNy9j8ScUMVXqymrlke2hKsbRcXPD0aD3X9o2lncf1p4cAj3odhQ9wWyIPqOfQp-lzijUSQgLEb7ocWZtp8q4xbTJqq9slWZnO2loU60WK5gfVEFLwasltWAnWUiURO24NkrnHw7AwShWdeoR1DsXx4-xHcLLoKXf7xJcFW0_CKzgKRZhNW84yinOUba3rjqcEGnx7cmKekXsGEO-TiOQhh9ugJ3XbkFBl2YSedxnE9ZMaNjuEwedXGqZaSBzmx4Avr3OWPWAOdPAD4HmDPBa71vS-tu4MxC9HefnJY7L6Q",
+  "Scope": "openid profile email restapi"
+}
+2020-03-06 23:51:44.335 +08:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2020-03-06 23:51:44.569 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2020-03-06 23:51:44.572 +08:00 [INF] {
+  "Name": "Client Authentication Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1010,
+  "ClientId": "mvcclient",
+  "AuthenticationMethod": "SharedSecret",
+  "ActivityId": "0HLU1R9H2OQJJ:00000003",
+  "TimeStamp": "2020-03-06T15:51:44Z",
+  "ProcessId": 2364,
+  "LocalIpAddress": "::1:5001",
+  "RemoteIpAddress": "::1"
+}
+2020-03-06 23:51:44.595 +08:00 [INF] Token request validation success
+{
+  "ClientId": "mvcclient",
+  "ClientName": "MVC 客户端",
+  "GrantType": "authorization_code",
+  "AuthorizationCode": "7cdaa82dae8b084c8eacaf99aeed53d97a759fe74d5d7272049730d25b88a04c",
+  "Raw": {
+    "client_id": "mvcclient",
+    "client_secret": "***REDACTED***",
+    "code": "7cdaa82dae8b084c8eacaf99aeed53d97a759fe74d5d7272049730d25b88a04c",
+    "grant_type": "authorization_code",
+    "redirect_uri": "https://localhost:7001/signin-oidc"
+  }
+}
+2020-03-06 23:51:44.614 +08:00 [INF] {
+  "Name": "Token Issued Success",
+  "Category": "Token",
+  "EventType": "Success",
+  "Id": 2000,
+  "ClientId": "mvcclient",
+  "ClientName": "MVC 客户端",
+  "Endpoint": "Token",
+  "Scopes": "openid profile email restapi",
+  "GrantType": "authorization_code",
+  "Tokens": [
+    {
+      "TokenType": "id_token",
+      "TokenValue": "****IrMQ"
+    },
+    {
+      "TokenType": "access_token",
+      "TokenValue": "****FW0w"
+    }
+  ],
+  "ActivityId": "0HLU1R9H2OQJJ:00000003",
+  "TimeStamp": "2020-03-06T15:51:44Z",
+  "ProcessId": 2364,
+  "LocalIpAddress": "::1:5001",
+  "RemoteIpAddress": "::1"
+}
+2020-03-06 23:51:44.632 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.UserInfoEndpoint for /connect/userinfo
+2020-03-06 23:51:44.654 +08:00 [INF] Profile service returned to the following claim types: sub name given_name family_name email email_verified website preferred_username
+2020-03-06 23:52:32.885 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2020-03-06 23:52:32.886 +08:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "mvcclient",
+  "ClientName": "MVC 客户端",
+  "RedirectUri": "https://localhost:7001/signin-oidc",
+  "AllowedRedirectUris": [
+    "https://localhost:7001/signin-oidc"
+  ],
+  "SubjectId": "anonymous",
+  "ResponseType": "code id_token",
+  "ResponseMode": "form_post",
+  "GrantType": "hybrid",
+  "RequestedScopes": "openid profile email restapi",
+  "State": "CfDJ8J9myGZ5GbdOqIfOtsM_BFDWAK59qmesMJTnpyyOvQRRSLTMY0wU7AGjR7RHNocKyVKZCA__nqMo-KAhzyK4kSbq1HrF9INVRW4XddD6WBS8NitZP4sIM4KqZnyOQ2oNx1up2iLBkBFmEZQm8lhULuvdTIav2UpKTDRUB0-MAvIrumMnwolfMs0lH6T2mZ6ZidvHX3OzVu-cyZMmebeoYGQNc9EcRBpUIlJnlcFo0SMid9YYhweME7NRai_L8VEqQVRN5SRDvcYxZaCy3RAQS-64Ll-0UImyLvf_IzheB3n4SGX7WDNnNPaiqbucBwxxnw",
+  "Nonce": "637191067528444328.OTJhZjNiMjgtNDUwNi00ZTlkLTliMWEtYjZhYjI0MmFhMzdhNDIxZTc1OTYtZjdiYy00NGUzLTk1YzMtN2ViYzQzMzBhNjdh",
+  "Raw": {
+    "client_id": "mvcclient",
+    "redirect_uri": "https://localhost:7001/signin-oidc",
+    "response_type": "code id_token",
+    "scope": "openid profile email restapi",
+    "response_mode": "form_post",
+    "nonce": "637191067528444328.OTJhZjNiMjgtNDUwNi00ZTlkLTliMWEtYjZhYjI0MmFhMzdhNDIxZTc1OTYtZjdiYy00NGUzLTk1YzMtN2ViYzQzMzBhNjdh",
+    "state": "CfDJ8J9myGZ5GbdOqIfOtsM_BFDWAK59qmesMJTnpyyOvQRRSLTMY0wU7AGjR7RHNocKyVKZCA__nqMo-KAhzyK4kSbq1HrF9INVRW4XddD6WBS8NitZP4sIM4KqZnyOQ2oNx1up2iLBkBFmEZQm8lhULuvdTIav2UpKTDRUB0-MAvIrumMnwolfMs0lH6T2mZ6ZidvHX3OzVu-cyZMmebeoYGQNc9EcRBpUIlJnlcFo0SMid9YYhweME7NRai_L8VEqQVRN5SRDvcYxZaCy3RAQS-64Ll-0UImyLvf_IzheB3n4SGX7WDNnNPaiqbucBwxxnw",
+    "x-client-SKU": "ID_NETSTANDARD1_4",
+    "x-client-ver": "5.2.0.0"
+  }
+}
+2020-03-06 23:52:32.889 +08:00 [INF] Showing login: User is not authenticated
+2020-03-06 23:52:47.594 +08:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2020-03-06 23:52:47.598 +08:00 [INF] {
+  "Name": "User Login Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1000,
+  "Username": "alice",
+  "SubjectId": "acf4fe86-239a-481c-b3f5-b01ae1d4e62f",
+  "DisplayName": "alice",
+  "Endpoint": "UI",
+  "ActivityId": "0HLU1R9H2OQJO:00000003",
+  "TimeStamp": "2020-03-06T15:52:47Z",
+  "ProcessId": 2364,
+  "LocalIpAddress": "::1:5001",
+  "RemoteIpAddress": "::1"
+}
+2020-03-06 23:52:47.606 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2020-03-06 23:52:47.608 +08:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "mvcclient",
+  "ClientName": "MVC 客户端",
+  "RedirectUri": "https://localhost:7001/signin-oidc",
+  "AllowedRedirectUris": [
+    "https://localhost:7001/signin-oidc"
+  ],
+  "SubjectId": "acf4fe86-239a-481c-b3f5-b01ae1d4e62f",
+  "ResponseType": "code id_token",
+  "ResponseMode": "form_post",
+  "GrantType": "hybrid",
+  "RequestedScopes": "openid profile email restapi",
+  "State": "CfDJ8J9myGZ5GbdOqIfOtsM_BFDWAK59qmesMJTnpyyOvQRRSLTMY0wU7AGjR7RHNocKyVKZCA__nqMo-KAhzyK4kSbq1HrF9INVRW4XddD6WBS8NitZP4sIM4KqZnyOQ2oNx1up2iLBkBFmEZQm8lhULuvdTIav2UpKTDRUB0-MAvIrumMnwolfMs0lH6T2mZ6ZidvHX3OzVu-cyZMmebeoYGQNc9EcRBpUIlJnlcFo0SMid9YYhweME7NRai_L8VEqQVRN5SRDvcYxZaCy3RAQS-64Ll-0UImyLvf_IzheB3n4SGX7WDNnNPaiqbucBwxxnw",
+  "Nonce": "637191067528444328.OTJhZjNiMjgtNDUwNi00ZTlkLTliMWEtYjZhYjI0MmFhMzdhNDIxZTc1OTYtZjdiYy00NGUzLTk1YzMtN2ViYzQzMzBhNjdh",
+  "SessionId": "9ad5e39fe9b75a39a2b755df5c6f3e9b",
+  "Raw": {
+    "client_id": "mvcclient",
+    "redirect_uri": "https://localhost:7001/signin-oidc",
+    "response_type": "code id_token",
+    "scope": "openid profile email restapi",
+    "response_mode": "form_post",
+    "nonce": "637191067528444328.OTJhZjNiMjgtNDUwNi00ZTlkLTliMWEtYjZhYjI0MmFhMzdhNDIxZTc1OTYtZjdiYy00NGUzLTk1YzMtN2ViYzQzMzBhNjdh",
+    "state": "CfDJ8J9myGZ5GbdOqIfOtsM_BFDWAK59qmesMJTnpyyOvQRRSLTMY0wU7AGjR7RHNocKyVKZCA__nqMo-KAhzyK4kSbq1HrF9INVRW4XddD6WBS8NitZP4sIM4KqZnyOQ2oNx1up2iLBkBFmEZQm8lhULuvdTIav2UpKTDRUB0-MAvIrumMnwolfMs0lH6T2mZ6ZidvHX3OzVu-cyZMmebeoYGQNc9EcRBpUIlJnlcFo0SMid9YYhweME7NRai_L8VEqQVRN5SRDvcYxZaCy3RAQS-64Ll-0UImyLvf_IzheB3n4SGX7WDNnNPaiqbucBwxxnw",
+    "x-client-SKU": "ID_NETSTANDARD1_4",
+    "x-client-ver": "5.2.0.0"
+  }
+}
+2020-03-06 23:52:47.618 +08:00 [INF] Showing consent: User has not yet consented
+2020-03-06 23:52:50.367 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2020-03-06 23:52:50.370 +08:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "mvcclient",
+  "ClientName": "MVC 客户端",
+  "RedirectUri": "https://localhost:7001/signin-oidc",
+  "AllowedRedirectUris": [
+    "https://localhost:7001/signin-oidc"
+  ],
+  "SubjectId": "acf4fe86-239a-481c-b3f5-b01ae1d4e62f",
+  "ResponseType": "code id_token",
+  "ResponseMode": "form_post",
+  "GrantType": "hybrid",
+  "RequestedScopes": "openid profile email restapi",
+  "State": "CfDJ8J9myGZ5GbdOqIfOtsM_BFDWAK59qmesMJTnpyyOvQRRSLTMY0wU7AGjR7RHNocKyVKZCA__nqMo-KAhzyK4kSbq1HrF9INVRW4XddD6WBS8NitZP4sIM4KqZnyOQ2oNx1up2iLBkBFmEZQm8lhULuvdTIav2UpKTDRUB0-MAvIrumMnwolfMs0lH6T2mZ6ZidvHX3OzVu-cyZMmebeoYGQNc9EcRBpUIlJnlcFo0SMid9YYhweME7NRai_L8VEqQVRN5SRDvcYxZaCy3RAQS-64Ll-0UImyLvf_IzheB3n4SGX7WDNnNPaiqbucBwxxnw",
+  "Nonce": "637191067528444328.OTJhZjNiMjgtNDUwNi00ZTlkLTliMWEtYjZhYjI0MmFhMzdhNDIxZTc1OTYtZjdiYy00NGUzLTk1YzMtN2ViYzQzMzBhNjdh",
+  "SessionId": "9ad5e39fe9b75a39a2b755df5c6f3e9b",
+  "Raw": {
+    "client_id": "mvcclient",
+    "redirect_uri": "https://localhost:7001/signin-oidc",
+    "response_type": "code id_token",
+    "scope": "openid profile email restapi",
+    "response_mode": "form_post",
+    "nonce": "637191067528444328.OTJhZjNiMjgtNDUwNi00ZTlkLTliMWEtYjZhYjI0MmFhMzdhNDIxZTc1OTYtZjdiYy00NGUzLTk1YzMtN2ViYzQzMzBhNjdh",
+    "state": "CfDJ8J9myGZ5GbdOqIfOtsM_BFDWAK59qmesMJTnpyyOvQRRSLTMY0wU7AGjR7RHNocKyVKZCA__nqMo-KAhzyK4kSbq1HrF9INVRW4XddD6WBS8NitZP4sIM4KqZnyOQ2oNx1up2iLBkBFmEZQm8lhULuvdTIav2UpKTDRUB0-MAvIrumMnwolfMs0lH6T2mZ6ZidvHX3OzVu-cyZMmebeoYGQNc9EcRBpUIlJnlcFo0SMid9YYhweME7NRai_L8VEqQVRN5SRDvcYxZaCy3RAQS-64Ll-0UImyLvf_IzheB3n4SGX7WDNnNPaiqbucBwxxnw",
+    "x-client-SKU": "ID_NETSTANDARD1_4",
+    "x-client-ver": "5.2.0.0"
+  }
+}
+2020-03-06 23:52:50.379 +08:00 [INF] User consented to scopes: ["openid","profile","email","restapi"]
+2020-03-06 23:52:50.394 +08:00 [INF] {
+  "Name": "Token Issued Success",
+  "Category": "Token",
+  "EventType": "Success",
+  "Id": 2000,
+  "ClientId": "mvcclient",
+  "ClientName": "MVC 客户端",
+  "RedirectUri": "https://localhost:7001/signin-oidc",
+  "Endpoint": "Authorize",
+  "SubjectId": "acf4fe86-239a-481c-b3f5-b01ae1d4e62f",
+  "Scopes": "openid profile email restapi",
+  "GrantType": "hybrid",
+  "Tokens": [
+    {
+      "TokenType": "id_token",
+      "TokenValue": "****M6og"
+    },
+    {
+      "TokenType": "code",
+      "TokenValue": "****d883"
+    }
+  ],
+  "ActivityId": "0HLU1R9H2OQJO:00000007",
+  "TimeStamp": "2020-03-06T15:52:50Z",
+  "ProcessId": 2364,
+  "LocalIpAddress": "::1:5001",
+  "RemoteIpAddress": "::1"
+}
+2020-03-06 23:52:50.395 +08:00 [INF] Authorize endpoint response
+{
+  "SubjectId": "acf4fe86-239a-481c-b3f5-b01ae1d4e62f",
+  "ClientId": "mvcclient",
+  "RedirectUri": "https://localhost:7001/signin-oidc",
+  "State": "CfDJ8J9myGZ5GbdOqIfOtsM_BFDWAK59qmesMJTnpyyOvQRRSLTMY0wU7AGjR7RHNocKyVKZCA__nqMo-KAhzyK4kSbq1HrF9INVRW4XddD6WBS8NitZP4sIM4KqZnyOQ2oNx1up2iLBkBFmEZQm8lhULuvdTIav2UpKTDRUB0-MAvIrumMnwolfMs0lH6T2mZ6ZidvHX3OzVu-cyZMmebeoYGQNc9EcRBpUIlJnlcFo0SMid9YYhweME7NRai_L8VEqQVRN5SRDvcYxZaCy3RAQS-64Ll-0UImyLvf_IzheB3n4SGX7WDNnNPaiqbucBwxxnw",
+  "Scope": "openid profile email restapi"
+}
+2020-03-06 23:52:50.397 +08:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2020-03-06 23:52:50.539 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2020-03-06 23:52:50.545 +08:00 [INF] {
+  "Name": "Client Authentication Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1010,
+  "ClientId": "mvcclient",
+  "AuthenticationMethod": "SharedSecret",
+  "ActivityId": "0HLU1R9H2OQJJ:00000005",
+  "TimeStamp": "2020-03-06T15:52:50Z",
+  "ProcessId": 2364,
+  "LocalIpAddress": "::1:5001",
+  "RemoteIpAddress": "::1"
+}
+2020-03-06 23:52:50.597 +08:00 [INF] Token request validation success
+{
+  "ClientId": "mvcclient",
+  "ClientName": "MVC 客户端",
+  "GrantType": "authorization_code",
+  "AuthorizationCode": "8f3464fcf789aca0634a7bb7c6cc505139ac4d82b2c87c65adb07c6bce9dd883",
+  "Raw": {
+    "client_id": "mvcclient",
+    "client_secret": "***REDACTED***",
+    "code": "8f3464fcf789aca0634a7bb7c6cc505139ac4d82b2c87c65adb07c6bce9dd883",
+    "grant_type": "authorization_code",
+    "redirect_uri": "https://localhost:7001/signin-oidc"
+  }
+}
+2020-03-06 23:52:50.621 +08:00 [INF] {
+  "Name": "Token Issued Success",
+  "Category": "Token",
+  "EventType": "Success",
+  "Id": 2000,
+  "ClientId": "mvcclient",
+  "ClientName": "MVC 客户端",
+  "Endpoint": "Token",
+  "Scopes": "openid profile email restapi",
+  "GrantType": "authorization_code",
+  "Tokens": [
+    {
+      "TokenType": "id_token",
+      "TokenValue": "****uXoQ"
+    },
+    {
+      "TokenType": "access_token",
+      "TokenValue": "****LeLQ"
+    }
+  ],
+  "ActivityId": "0HLU1R9H2OQJJ:00000005",
+  "TimeStamp": "2020-03-06T15:52:50Z",
+  "ProcessId": 2364,
+  "LocalIpAddress": "::1:5001",
+  "RemoteIpAddress": "::1"
+}
+2020-03-06 23:52:50.645 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.UserInfoEndpoint for /connect/userinfo
+2020-03-06 23:52:50.661 +08:00 [INF] Profile service returned to the following claim types: sub name given_name family_name email email_verified website preferred_username
+2020-03-06 23:54:18.348 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2020-03-06 23:54:18.498 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2020-03-06 23:54:18.575 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2020-03-06 23:54:18.577 +08:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "mvcclient",
+  "ClientName": "MVC 客户端",
+  "RedirectUri": "https://localhost:7001/signin-oidc",
+  "AllowedRedirectUris": [
+    "https://localhost:7001/signin-oidc"
+  ],
+  "SubjectId": "anonymous",
+  "ResponseType": "code id_token",
+  "ResponseMode": "form_post",
+  "GrantType": "hybrid",
+  "RequestedScopes": "openid profile email restapi",
+  "State": "CfDJ8J9myGZ5GbdOqIfOtsM_BFA6KRfdEO20HW8SqR6GucF4AIC0P3kKUhBVQPpcAJb7jgNB5Agtnl-UYBEe-P4gTiOpofsledQmoF02OXnv7TWwzaOw0l5W44yLJeI96EMj16H9OOnUXf7tzGry7Znh-Bhvtwmmz4ZmHW5fnIOks797s9iSUN1fR1BGKJh5WtnLZDpxzNBJ8-70Par_PQ0dBvl-LuRAFP8I5NRxmbLD077FfG7RCKnyOdOQYF_oep_FjXeXZ3vIrc62tx9N6Taz43epTSXmy01JgkZWqczKBeV9nRv3pbyCuXn0PezgKYsuWw",
+  "Nonce": "637191068585386124.NjhjYWQxMDUtMGJhZS00M2I4LWE1MzgtZTA4YTI3YjNiMTRiYzg5YjQ5ZTItMDZhYi00YTgxLWI5ZDItMTRiNzMxYWYxNzdm",
+  "Raw": {
+    "client_id": "mvcclient",
+    "redirect_uri": "https://localhost:7001/signin-oidc",
+    "response_type": "code id_token",
+    "scope": "openid profile email restapi",
+    "response_mode": "form_post",
+    "nonce": "637191068585386124.NjhjYWQxMDUtMGJhZS00M2I4LWE1MzgtZTA4YTI3YjNiMTRiYzg5YjQ5ZTItMDZhYi00YTgxLWI5ZDItMTRiNzMxYWYxNzdm",
+    "state": "CfDJ8J9myGZ5GbdOqIfOtsM_BFA6KRfdEO20HW8SqR6GucF4AIC0P3kKUhBVQPpcAJb7jgNB5Agtnl-UYBEe-P4gTiOpofsledQmoF02OXnv7TWwzaOw0l5W44yLJeI96EMj16H9OOnUXf7tzGry7Znh-Bhvtwmmz4ZmHW5fnIOks797s9iSUN1fR1BGKJh5WtnLZDpxzNBJ8-70Par_PQ0dBvl-LuRAFP8I5NRxmbLD077FfG7RCKnyOdOQYF_oep_FjXeXZ3vIrc62tx9N6Taz43epTSXmy01JgkZWqczKBeV9nRv3pbyCuXn0PezgKYsuWw",
+    "x-client-SKU": "ID_NETSTANDARD1_4",
+    "x-client-ver": "5.2.0.0"
+  }
+}
+2020-03-06 23:54:18.580 +08:00 [INF] Showing login: User is not authenticated
+2020-03-06 23:54:25.899 +08:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2020-03-06 23:54:25.902 +08:00 [INF] {
+  "Name": "User Login Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1000,
+  "Username": "alice",
+  "SubjectId": "acf4fe86-239a-481c-b3f5-b01ae1d4e62f",
+  "DisplayName": "alice",
+  "Endpoint": "UI",
+  "ActivityId": "0HLU1R9H2OQJR:00000003",
+  "TimeStamp": "2020-03-06T15:54:25Z",
+  "ProcessId": 2364,
+  "LocalIpAddress": "::1:5001",
+  "RemoteIpAddress": "::1"
+}
+2020-03-06 23:54:25.913 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2020-03-06 23:54:25.914 +08:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "mvcclient",
+  "ClientName": "MVC 客户端",
+  "RedirectUri": "https://localhost:7001/signin-oidc",
+  "AllowedRedirectUris": [
+    "https://localhost:7001/signin-oidc"
+  ],
+  "SubjectId": "acf4fe86-239a-481c-b3f5-b01ae1d4e62f",
+  "ResponseType": "code id_token",
+  "ResponseMode": "form_post",
+  "GrantType": "hybrid",
+  "RequestedScopes": "openid profile email restapi",
+  "State": "CfDJ8J9myGZ5GbdOqIfOtsM_BFA6KRfdEO20HW8SqR6GucF4AIC0P3kKUhBVQPpcAJb7jgNB5Agtnl-UYBEe-P4gTiOpofsledQmoF02OXnv7TWwzaOw0l5W44yLJeI96EMj16H9OOnUXf7tzGry7Znh-Bhvtwmmz4ZmHW5fnIOks797s9iSUN1fR1BGKJh5WtnLZDpxzNBJ8-70Par_PQ0dBvl-LuRAFP8I5NRxmbLD077FfG7RCKnyOdOQYF_oep_FjXeXZ3vIrc62tx9N6Taz43epTSXmy01JgkZWqczKBeV9nRv3pbyCuXn0PezgKYsuWw",
+  "Nonce": "637191068585386124.NjhjYWQxMDUtMGJhZS00M2I4LWE1MzgtZTA4YTI3YjNiMTRiYzg5YjQ5ZTItMDZhYi00YTgxLWI5ZDItMTRiNzMxYWYxNzdm",
+  "SessionId": "770e07581400c51c5f6782c646263b78",
+  "Raw": {
+    "client_id": "mvcclient",
+    "redirect_uri": "https://localhost:7001/signin-oidc",
+    "response_type": "code id_token",
+    "scope": "openid profile email restapi",
+    "response_mode": "form_post",
+    "nonce": "637191068585386124.NjhjYWQxMDUtMGJhZS00M2I4LWE1MzgtZTA4YTI3YjNiMTRiYzg5YjQ5ZTItMDZhYi00YTgxLWI5ZDItMTRiNzMxYWYxNzdm",
+    "state": "CfDJ8J9myGZ5GbdOqIfOtsM_BFA6KRfdEO20HW8SqR6GucF4AIC0P3kKUhBVQPpcAJb7jgNB5Agtnl-UYBEe-P4gTiOpofsledQmoF02OXnv7TWwzaOw0l5W44yLJeI96EMj16H9OOnUXf7tzGry7Znh-Bhvtwmmz4ZmHW5fnIOks797s9iSUN1fR1BGKJh5WtnLZDpxzNBJ8-70Par_PQ0dBvl-LuRAFP8I5NRxmbLD077FfG7RCKnyOdOQYF_oep_FjXeXZ3vIrc62tx9N6Taz43epTSXmy01JgkZWqczKBeV9nRv3pbyCuXn0PezgKYsuWw",
+    "x-client-SKU": "ID_NETSTANDARD1_4",
+    "x-client-ver": "5.2.0.0"
+  }
+}
+2020-03-06 23:54:25.920 +08:00 [INF] Showing consent: User has not yet consented
+2020-03-06 23:54:28.146 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2020-03-06 23:54:28.148 +08:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "mvcclient",
+  "ClientName": "MVC 客户端",
+  "RedirectUri": "https://localhost:7001/signin-oidc",
+  "AllowedRedirectUris": [
+    "https://localhost:7001/signin-oidc"
+  ],
+  "SubjectId": "acf4fe86-239a-481c-b3f5-b01ae1d4e62f",
+  "ResponseType": "code id_token",
+  "ResponseMode": "form_post",
+  "GrantType": "hybrid",
+  "RequestedScopes": "openid profile email restapi",
+  "State": "CfDJ8J9myGZ5GbdOqIfOtsM_BFA6KRfdEO20HW8SqR6GucF4AIC0P3kKUhBVQPpcAJb7jgNB5Agtnl-UYBEe-P4gTiOpofsledQmoF02OXnv7TWwzaOw0l5W44yLJeI96EMj16H9OOnUXf7tzGry7Znh-Bhvtwmmz4ZmHW5fnIOks797s9iSUN1fR1BGKJh5WtnLZDpxzNBJ8-70Par_PQ0dBvl-LuRAFP8I5NRxmbLD077FfG7RCKnyOdOQYF_oep_FjXeXZ3vIrc62tx9N6Taz43epTSXmy01JgkZWqczKBeV9nRv3pbyCuXn0PezgKYsuWw",
+  "Nonce": "637191068585386124.NjhjYWQxMDUtMGJhZS00M2I4LWE1MzgtZTA4YTI3YjNiMTRiYzg5YjQ5ZTItMDZhYi00YTgxLWI5ZDItMTRiNzMxYWYxNzdm",
+  "SessionId": "770e07581400c51c5f6782c646263b78",
+  "Raw": {
+    "client_id": "mvcclient",
+    "redirect_uri": "https://localhost:7001/signin-oidc",
+    "response_type": "code id_token",
+    "scope": "openid profile email restapi",
+    "response_mode": "form_post",
+    "nonce": "637191068585386124.NjhjYWQxMDUtMGJhZS00M2I4LWE1MzgtZTA4YTI3YjNiMTRiYzg5YjQ5ZTItMDZhYi00YTgxLWI5ZDItMTRiNzMxYWYxNzdm",
+    "state": "CfDJ8J9myGZ5GbdOqIfOtsM_BFA6KRfdEO20HW8SqR6GucF4AIC0P3kKUhBVQPpcAJb7jgNB5Agtnl-UYBEe-P4gTiOpofsledQmoF02OXnv7TWwzaOw0l5W44yLJeI96EMj16H9OOnUXf7tzGry7Znh-Bhvtwmmz4ZmHW5fnIOks797s9iSUN1fR1BGKJh5WtnLZDpxzNBJ8-70Par_PQ0dBvl-LuRAFP8I5NRxmbLD077FfG7RCKnyOdOQYF_oep_FjXeXZ3vIrc62tx9N6Taz43epTSXmy01JgkZWqczKBeV9nRv3pbyCuXn0PezgKYsuWw",
+    "x-client-SKU": "ID_NETSTANDARD1_4",
+    "x-client-ver": "5.2.0.0"
+  }
+}
+2020-03-06 23:54:28.161 +08:00 [INF] User consented to scopes: ["openid","profile","email","restapi"]
+2020-03-06 23:54:28.180 +08:00 [INF] {
+  "Name": "Token Issued Success",
+  "Category": "Token",
+  "EventType": "Success",
+  "Id": 2000,
+  "ClientId": "mvcclient",
+  "ClientName": "MVC 客户端",
+  "RedirectUri": "https://localhost:7001/signin-oidc",
+  "Endpoint": "Authorize",
+  "SubjectId": "acf4fe86-239a-481c-b3f5-b01ae1d4e62f",
+  "Scopes": "openid profile email restapi",
+  "GrantType": "hybrid",
+  "Tokens": [
+    {
+      "TokenType": "id_token",
+      "TokenValue": "****Wyrg"
+    },
+    {
+      "TokenType": "code",
+      "TokenValue": "****d189"
+    }
+  ],
+  "ActivityId": "0HLU1R9H2OQJR:00000007",
+  "TimeStamp": "2020-03-06T15:54:28Z",
+  "ProcessId": 2364,
+  "LocalIpAddress": "::1:5001",
+  "RemoteIpAddress": "::1"
+}
+2020-03-06 23:54:28.182 +08:00 [INF] Authorize endpoint response
+{
+  "SubjectId": "acf4fe86-239a-481c-b3f5-b01ae1d4e62f",
+  "ClientId": "mvcclient",
+  "RedirectUri": "https://localhost:7001/signin-oidc",
+  "State": "CfDJ8J9myGZ5GbdOqIfOtsM_BFA6KRfdEO20HW8SqR6GucF4AIC0P3kKUhBVQPpcAJb7jgNB5Agtnl-UYBEe-P4gTiOpofsledQmoF02OXnv7TWwzaOw0l5W44yLJeI96EMj16H9OOnUXf7tzGry7Znh-Bhvtwmmz4ZmHW5fnIOks797s9iSUN1fR1BGKJh5WtnLZDpxzNBJ8-70Par_PQ0dBvl-LuRAFP8I5NRxmbLD077FfG7RCKnyOdOQYF_oep_FjXeXZ3vIrc62tx9N6Taz43epTSXmy01JgkZWqczKBeV9nRv3pbyCuXn0PezgKYsuWw",
+  "Scope": "openid profile email restapi"
+}
+2020-03-06 23:54:28.183 +08:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2020-03-06 23:54:28.448 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2020-03-06 23:54:28.450 +08:00 [INF] {
+  "Name": "Client Authentication Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1010,
+  "ClientId": "mvcclient",
+  "AuthenticationMethod": "SharedSecret",
+  "ActivityId": "0HLU1R9H2OQJQ:00000003",
+  "TimeStamp": "2020-03-06T15:54:28Z",
+  "ProcessId": 2364,
+  "LocalIpAddress": "::1:5001",
+  "RemoteIpAddress": "::1"
+}
+2020-03-06 23:54:28.467 +08:00 [INF] Token request validation success
+{
+  "ClientId": "mvcclient",
+  "ClientName": "MVC 客户端",
+  "GrantType": "authorization_code",
+  "AuthorizationCode": "a3af85206c8b84ae01a83958e064f5dd70d24df3b6c276c5a3b15f48305bd189",
+  "Raw": {
+    "client_id": "mvcclient",
+    "client_secret": "***REDACTED***",
+    "code": "a3af85206c8b84ae01a83958e064f5dd70d24df3b6c276c5a3b15f48305bd189",
+    "grant_type": "authorization_code",
+    "redirect_uri": "https://localhost:7001/signin-oidc"
+  }
+}
+2020-03-06 23:54:28.484 +08:00 [INF] {
+  "Name": "Token Issued Success",
+  "Category": "Token",
+  "EventType": "Success",
+  "Id": 2000,
+  "ClientId": "mvcclient",
+  "ClientName": "MVC 客户端",
+  "Endpoint": "Token",
+  "Scopes": "openid profile email restapi",
+  "GrantType": "authorization_code",
+  "Tokens": [
+    {
+      "TokenType": "id_token",
+      "TokenValue": "****14IQ"
+    },
+    {
+      "TokenType": "access_token",
+      "TokenValue": "****8AZQ"
+    }
+  ],
+  "ActivityId": "0HLU1R9H2OQJQ:00000003",
+  "TimeStamp": "2020-03-06T15:54:28Z",
+  "ProcessId": 2364,
+  "LocalIpAddress": "::1:5001",
+  "RemoteIpAddress": "::1"
+}
+2020-03-06 23:54:28.499 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.UserInfoEndpoint for /connect/userinfo
+2020-03-06 23:54:28.510 +08:00 [INF] Profile service returned to the following claim types: sub name given_name family_name email email_verified website preferred_username
+2020-04-09 20:53:04.934 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
